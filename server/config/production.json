@@ -1,10 +1,10 @@
 {
-  "host": "monitorprod.herokuapp.com",
+  "host": "monitorprod.com.br",
   "port": 80,
   "public": "../public/",
   "paginate": { "default": 200, "max": 200 },
-  "mysql": "mysql://b6370d9ca864b2:9b5d7b62@us-cdbr-iron-east-01.cleardb.net/heroku_346b2f4123342c7?reconnect=true",
-  "mongodb": "mongodb://heroku_12hksnb9:3lkbck4oh14ash25195rlbk75q@ds059205.mlab.com:59205/heroku_12hksnb9",
+  "mysql": "mysql://monitorprodAdmin:eQwgxTPcHSn3F02%25@ec2-18-216-180-49.us-east-2.compute.amazonaws.com:59305/monitorprod",
+  "mongodb": "mongodb://monitorprodAdmin:B3EDC74cynqFL7tV@ec2-18-216-180-49.us-east-2.compute.amazonaws.com:59205/monitorprod",
   "authentication": {
     "secret": "secretissecret",
     "strategies": ["jwt", "local"],
@@ -12,7 +12,7 @@
     "service": "users",
     "jwt": {
       "header": { "typ": "access" },
-      "audience": "https://monitorprod.herokuapp.com",
+      "audience": "https://monitorprod.com.br",
       "subject": "anonymous",
       "issuer": "feathers",
       "algorithm": "HS256",
