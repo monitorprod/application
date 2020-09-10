@@ -1,0 +1,11 @@
+/*  https://material.io/design/color/the-color-system.html#tools-for-picking-colors values = 400 */
+.ct-bar {
+  stroke-width: 30px;
+}
+
+.gauge-tooltip {
+  position: absolute;
+  font-size: 0.75rem;
+  white-space: pre;
+  border-radius: 8px;
+}

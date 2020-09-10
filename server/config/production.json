@@ -1,0 +1,22 @@
+{
+  "host": "monitorprod.herokuapp.com",
+  "port": 80,
+  "public": "../public/",
+  "paginate": { "default": 200, "max": 200 },
+  "mysql": "mysql://b6370d9ca864b2:9b5d7b62@us-cdbr-iron-east-01.cleardb.net/heroku_346b2f4123342c7?reconnect=true",
+  "mongodb": "mongodb://heroku_12hksnb9:3lkbck4oh14ash25195rlbk75q@ds059205.mlab.com:59205/heroku_12hksnb9",
+  "authentication": {
+    "secret": "secretissecret",
+    "strategies": ["jwt", "local"],
+    "path": "/authentication",
+    "service": "users",
+    "jwt": {
+      "header": { "typ": "access" },
+      "audience": "https://monitorprod.herokuapp.com",
+      "subject": "anonymous",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "7d"
+    }
+  }
+}

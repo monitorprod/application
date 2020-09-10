@@ -1,0 +1,10980 @@
+{
+	"entries": [
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "7",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "7",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "7",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T03:15:33.470+00:00",
+			"startDate": "2020-05-19T03:00:00.000+00:00",
+			"endDate": "2020-05-19T03:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "7",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "7",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T03:30:32.906+00:00",
+			"startDate": "2020-05-19T03:15:00.000+00:00",
+			"endDate": "2020-05-19T03:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "7",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "7",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T03:45:32.592+00:00",
+			"startDate": "2020-05-19T03:30:00.000+00:00",
+			"endDate": "2020-05-19T03:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "7",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "7",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "7",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T04:00:32.601+00:00",
+			"startDate": "2020-05-19T03:45:00.000+00:00",
+			"endDate": "2020-05-19T03:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "7",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "7",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "7",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T04:15:36.492+00:00",
+			"startDate": "2020-05-19T04:00:00.000+00:00",
+			"endDate": "2020-05-19T04:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "7",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "7",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T04:30:32.951+00:00",
+			"startDate": "2020-05-19T04:15:00.000+00:00",
+			"endDate": "2020-05-19T04:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "7",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "7",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T04:45:34.573+00:00",
+			"startDate": "2020-05-19T04:30:00.000+00:00",
+			"endDate": "2020-05-19T04:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "7",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "7",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "7",
+					"minute": "58"
+				},
+				{
+					"total": "7",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 696,
+			"totalCycle": 116,
+			"c": 7.73,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T05:00:32.490+00:00",
+			"startDate": "2020-05-19T04:45:00.000+00:00",
+			"endDate": "2020-05-19T04:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "7",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "7",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T05:15:32.925+00:00",
+			"startDate": "2020-05-19T05:00:00.000+00:00",
+			"endDate": "2020-05-19T05:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "7",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "7",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "7",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T05:30:35.321+00:00",
+			"startDate": "2020-05-19T05:15:00.000+00:00",
+			"endDate": "2020-05-19T05:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "7",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "7",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "7",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T05:45:32.569+00:00",
+			"startDate": "2020-05-19T05:30:00.000+00:00",
+			"endDate": "2020-05-19T05:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "7",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "7",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "7",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T06:16:46.258+00:00",
+			"startDate": "2020-05-19T05:45:00.000+00:00",
+			"endDate": "2020-05-19T05:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "7",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "7",
+					"minute": "7"
+				},
+				{
+					"total": "7",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "7",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 690,
+			"totalCycle": 115,
+			"c": 7.67,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T06:15:32.299+00:00",
+			"startDate": "2020-05-19T06:00:00.000+00:00",
+			"endDate": "2020-05-19T06:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "7",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "7",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "7",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T06:30:32.497+00:00",
+			"startDate": "2020-05-19T06:15:00.000+00:00",
+			"endDate": "2020-05-19T06:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "7",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "7",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T06:45:32.777+00:00",
+			"startDate": "2020-05-19T06:30:00.000+00:00",
+			"endDate": "2020-05-19T06:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "7",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "7",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T07:00:34.831+00:00",
+			"startDate": "2020-05-19T06:45:00.000+00:00",
+			"endDate": "2020-05-19T06:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "7",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "7",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "7",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T07:15:34.792+00:00",
+			"startDate": "2020-05-19T07:00:00.000+00:00",
+			"endDate": "2020-05-19T07:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "7",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "7",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "7",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T07:30:34.464+00:00",
+			"startDate": "2020-05-19T07:15:00.000+00:00",
+			"endDate": "2020-05-19T07:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "7",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "7",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T07:45:33.063+00:00",
+			"startDate": "2020-05-19T07:30:00.000+00:00",
+			"endDate": "2020-05-19T07:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "7",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "7",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T08:00:32.547+00:00",
+			"startDate": "2020-05-19T07:45:00.000+00:00",
+			"endDate": "2020-05-19T07:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "7",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "7",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "7",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T08:15:33.767+00:00",
+			"startDate": "2020-05-19T08:00:00.000+00:00",
+			"endDate": "2020-05-19T08:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "7",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "7",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "7",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T08:30:33.434+00:00",
+			"startDate": "2020-05-19T08:15:00.000+00:00",
+			"endDate": "2020-05-19T08:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "7",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "7",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T08:45:33.625+00:00",
+			"startDate": "2020-05-19T08:30:00.000+00:00",
+			"endDate": "2020-05-19T08:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "7",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "7",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "7",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T09:00:32.332+00:00",
+			"startDate": "2020-05-19T08:45:00.000+00:00",
+			"endDate": "2020-05-19T08:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "7",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "7",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "7",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T09:15:32.333+00:00",
+			"startDate": "2020-05-19T09:00:00.000+00:00",
+			"endDate": "2020-05-19T09:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "7",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "7",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T09:30:34.179+00:00",
+			"startDate": "2020-05-19T09:15:00.000+00:00",
+			"endDate": "2020-05-19T09:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "7",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "7",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "7",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T09:45:33.796+00:00",
+			"startDate": "2020-05-19T09:30:00.000+00:00",
+			"endDate": "2020-05-19T09:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "7",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "7",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "7",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T10:00:32.625+00:00",
+			"startDate": "2020-05-19T09:45:00.000+00:00",
+			"endDate": "2020-05-19T09:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "7",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "7",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T10:15:34.694+00:00",
+			"startDate": "2020-05-19T10:00:00.000+00:00",
+			"endDate": "2020-05-19T10:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "7",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "7",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T10:30:35.365+00:00",
+			"startDate": "2020-05-19T10:15:00.000+00:00",
+			"endDate": "2020-05-19T10:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "7",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "7",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "7",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T10:45:33.739+00:00",
+			"startDate": "2020-05-19T10:30:00.000+00:00",
+			"endDate": "2020-05-19T10:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "7",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "7",
+					"minute": "52"
+				},
+				{
+					"total": "7",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "7",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 696,
+			"totalCycle": 116,
+			"c": 7.73,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T11:00:33.843+00:00",
+			"startDate": "2020-05-19T10:45:00.000+00:00",
+			"endDate": "2020-05-19T10:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "7",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "7",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T11:15:36.474+00:00",
+			"startDate": "2020-05-19T11:00:00.000+00:00",
+			"endDate": "2020-05-19T11:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "7",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "7",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "6",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 690,
+			"totalCycle": 115,
+			"c": 7.67,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T11:30:33.772+00:00",
+			"startDate": "2020-05-19T11:15:00.000+00:00",
+			"endDate": "2020-05-19T11:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:44.230+00:00",
+			"startDate": "2020-05-19T11:15:00.000+00:00",
+			"endDate": "2020-05-19T11:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "0",
+					"minute": "30"
+				},
+				{
+					"total": "0",
+					"minute": "31"
+				},
+				{
+					"total": "0",
+					"minute": "32"
+				},
+				{
+					"total": "0",
+					"minute": "33"
+				},
+				{
+					"total": "1",
+					"minute": "34"
+				},
+				{
+					"total": "2",
+					"minute": "35"
+				},
+				{
+					"total": "7",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "7",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "7",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 432,
+			"totalCycle": 72,
+			"c": 4.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 321,
+			"ev": 321,
+			"at": 11,
+			"oat": 11,
+			"cd": "2020-05-19T11:45:33.529+00:00",
+			"startDate": "2020-05-19T11:30:00.000+00:00",
+			"endDate": "2020-05-19T11:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:44.217+00:00",
+			"startDate": "2020-05-19T11:30:00.000+00:00",
+			"endDate": "2020-05-19T11:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:04:36.833+00:00",
+			"startDate": "2020-05-19T11:30:00.000+00:00",
+			"endDate": "2020-05-19T11:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "7",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "7",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T12:00:32.934+00:00",
+			"startDate": "2020-05-19T11:45:00.000+00:00",
+			"endDate": "2020-05-19T11:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:43.737+00:00",
+			"startDate": "2020-05-19T11:45:00.000+00:00",
+			"endDate": "2020-05-19T11:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:04:36.996+00:00",
+			"startDate": "2020-05-19T11:45:00.000+00:00",
+			"endDate": "2020-05-19T11:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "7",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "7",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T12:15:33.509+00:00",
+			"startDate": "2020-05-19T12:00:00.000+00:00",
+			"endDate": "2020-05-19T12:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:44.005+00:00",
+			"startDate": "2020-05-19T12:00:00.000+00:00",
+			"endDate": "2020-05-19T12:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:04:36.883+00:00",
+			"startDate": "2020-05-19T12:00:00.000+00:00",
+			"endDate": "2020-05-19T12:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "7",
+					"minute": "16"
+				},
+				{
+					"total": "7",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "7",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "7",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 696,
+			"totalCycle": 116,
+			"c": 7.73,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T12:30:49.098+00:00",
+			"startDate": "2020-05-19T12:15:00.000+00:00",
+			"endDate": "2020-05-19T12:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:44.299+00:00",
+			"startDate": "2020-05-19T12:15:00.000+00:00",
+			"endDate": "2020-05-19T12:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:04:36.672+00:00",
+			"startDate": "2020-05-19T12:15:00.000+00:00",
+			"endDate": "2020-05-19T12:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "7",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "7",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T12:45:32.788+00:00",
+			"startDate": "2020-05-19T12:30:00.000+00:00",
+			"endDate": "2020-05-19T12:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:44.080+00:00",
+			"startDate": "2020-05-19T12:30:00.000+00:00",
+			"endDate": "2020-05-19T12:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:04:36.832+00:00",
+			"startDate": "2020-05-19T12:30:00.000+00:00",
+			"endDate": "2020-05-19T12:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "7",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "7",
+					"minute": "55"
+				},
+				{
+					"total": "7",
+					"minute": "56"
+				},
+				{
+					"total": "0",
+					"minute": "57"
+				},
+				{
+					"total": "0",
+					"minute": "58"
+				},
+				{
+					"total": "0",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 552,
+			"totalCycle": 92,
+			"c": 6.13,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 321,
+			"ev": 321,
+			"at": 11,
+			"oat": 11,
+			"cd": "2020-05-19T13:00:31.959+00:00",
+			"startDate": "2020-05-19T12:45:00.000+00:00",
+			"endDate": "2020-05-19T12:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:44.036+00:00",
+			"startDate": "2020-05-19T12:45:00.000+00:00",
+			"endDate": "2020-05-19T12:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:04:37.156+00:00",
+			"startDate": "2020-05-19T12:45:00.000+00:00",
+			"endDate": "2020-05-19T12:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "1",
+					"minute": "0"
+				},
+				{
+					"total": "2",
+					"minute": "1"
+				},
+				{
+					"total": "7",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "7",
+					"minute": "5"
+				},
+				{
+					"total": "7",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "7",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 618,
+			"totalCycle": 103,
+			"c": 6.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 321,
+			"ev": 321,
+			"at": 11,
+			"oat": 11,
+			"cd": "2020-05-19T13:15:32.305+00:00",
+			"startDate": "2020-05-19T13:00:00.000+00:00",
+			"endDate": "2020-05-19T13:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:44.008+00:00",
+			"startDate": "2020-05-19T13:00:00.000+00:00",
+			"endDate": "2020-05-19T13:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:04:36.997+00:00",
+			"startDate": "2020-05-19T13:00:00.000+00:00",
+			"endDate": "2020-05-19T13:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "7",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "7",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "7",
+					"minute": "27"
+				},
+				{
+					"total": "7",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 696,
+			"totalCycle": 116,
+			"c": 7.73,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T13:30:33.814+00:00",
+			"startDate": "2020-05-19T13:15:00.000+00:00",
+			"endDate": "2020-05-19T13:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:43.810+00:00",
+			"startDate": "2020-05-19T13:15:00.000+00:00",
+			"endDate": "2020-05-19T13:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:04:36.676+00:00",
+			"startDate": "2020-05-19T13:15:00.000+00:00",
+			"endDate": "2020-05-19T13:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "7",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "7",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T13:45:31.727+00:00",
+			"startDate": "2020-05-19T13:30:00.000+00:00",
+			"endDate": "2020-05-19T13:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:44.237+00:00",
+			"startDate": "2020-05-19T13:30:00.000+00:00",
+			"endDate": "2020-05-19T13:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:04:37.073+00:00",
+			"startDate": "2020-05-19T13:30:00.000+00:00",
+			"endDate": "2020-05-19T13:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "7",
+					"minute": "50"
+				},
+				{
+					"total": "7",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "7",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 696,
+			"totalCycle": 116,
+			"c": 7.73,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T14:00:33.379+00:00",
+			"startDate": "2020-05-19T13:45:00.000+00:00",
+			"endDate": "2020-05-19T13:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:43.969+00:00",
+			"startDate": "2020-05-19T13:45:00.000+00:00",
+			"endDate": "2020-05-19T13:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:04:36.835+00:00",
+			"startDate": "2020-05-19T13:45:00.000+00:00",
+			"endDate": "2020-05-19T13:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "7",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "7",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "7",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T14:15:33.522+00:00",
+			"startDate": "2020-05-19T14:00:00.000+00:00",
+			"endDate": "2020-05-19T14:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:26:21.668+00:00",
+			"startDate": "2020-05-19T14:00:00.000+00:00",
+			"endDate": "2020-05-19T14:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:25:58.610+00:00",
+			"startDate": "2020-05-19T14:00:00.000+00:00",
+			"endDate": "2020-05-19T14:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:25:05.562+00:00",
+			"startDate": "2020-05-19T14:00:00.000+00:00",
+			"endDate": "2020-05-19T14:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:20:53.505+00:00",
+			"startDate": "2020-05-19T14:00:00.000+00:00",
+			"endDate": "2020-05-19T14:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:18:06.477+00:00",
+			"startDate": "2020-05-19T14:00:00.000+00:00",
+			"endDate": "2020-05-19T14:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:10:42.458+00:00",
+			"startDate": "2020-05-19T14:00:00.000+00:00",
+			"endDate": "2020-05-19T14:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:44.428+00:00",
+			"startDate": "2020-05-19T14:00:00.000+00:00",
+			"endDate": "2020-05-19T14:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:09:39.286+00:00",
+			"startDate": "2020-05-19T14:00:00.000+00:00",
+			"endDate": "2020-05-19T14:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				},
+				{
+					"total": null,
+					"minute": null
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": {
+				"$numberDouble": "NaN"
+			},
+			"totalCycle": {
+				"$numberDouble": "NaN"
+			},
+			"c": {
+				"$numberDouble": "NaN"
+			},
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 311,
+			"ev": 311,
+			"at": 51,
+			"oat": 51,
+			"cd": "2020-05-25T13:04:32.484+00:00",
+			"startDate": "2020-05-19T14:00:00.000+00:00",
+			"endDate": "2020-05-19T14:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "7",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "7",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T14:30:38.333+00:00",
+			"startDate": "2020-05-19T14:15:00.000+00:00",
+			"endDate": "2020-05-19T14:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "7",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "7",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "7",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T14:45:36.230+00:00",
+			"startDate": "2020-05-19T14:30:00.000+00:00",
+			"endDate": "2020-05-19T14:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "7",
+					"minute": "47"
+				},
+				{
+					"total": "7",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "7",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T15:00:33.550+00:00",
+			"startDate": "2020-05-19T14:45:00.000+00:00",
+			"endDate": "2020-05-19T14:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "7",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "7",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T15:15:32.477+00:00",
+			"startDate": "2020-05-19T15:00:00.000+00:00",
+			"endDate": "2020-05-19T15:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "7",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "7",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "7",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T15:30:33.781+00:00",
+			"startDate": "2020-05-19T15:15:00.000+00:00",
+			"endDate": "2020-05-19T15:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "7",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "7",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "7",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T15:45:32.307+00:00",
+			"startDate": "2020-05-19T15:30:00.000+00:00",
+			"endDate": "2020-05-19T15:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "7",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "7",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T16:00:32.138+00:00",
+			"startDate": "2020-05-19T15:45:00.000+00:00",
+			"endDate": "2020-05-19T15:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "7",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "7",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "7",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T16:15:33.018+00:00",
+			"startDate": "2020-05-19T16:00:00.000+00:00",
+			"endDate": "2020-05-19T16:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "7",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "7",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T16:30:32.111+00:00",
+			"startDate": "2020-05-19T16:15:00.000+00:00",
+			"endDate": "2020-05-19T16:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "30"
+				},
+				{
+					"total": "7",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "7",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "7",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 696,
+			"totalCycle": 116,
+			"c": 7.73,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T16:45:35.828+00:00",
+			"startDate": "2020-05-19T16:30:00.000+00:00",
+			"endDate": "2020-05-19T16:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "7",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "7",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T17:00:38.660+00:00",
+			"startDate": "2020-05-19T16:45:00.000+00:00",
+			"endDate": "2020-05-19T16:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "7",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "7",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T17:15:32.377+00:00",
+			"startDate": "2020-05-19T17:00:00.000+00:00",
+			"endDate": "2020-05-19T17:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "7",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "7",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "7",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T17:30:32.667+00:00",
+			"startDate": "2020-05-19T17:15:00.000+00:00",
+			"endDate": "2020-05-19T17:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "7",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "7",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T17:45:32.508+00:00",
+			"startDate": "2020-05-19T17:30:00.000+00:00",
+			"endDate": "2020-05-19T17:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "45"
+				},
+				{
+					"total": "7",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "7",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "7",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 696,
+			"totalCycle": 116,
+			"c": 7.73,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T18:00:36.528+00:00",
+			"startDate": "2020-05-19T17:45:00.000+00:00",
+			"endDate": "2020-05-19T17:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "7",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "7",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "7",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T18:15:32.103+00:00",
+			"startDate": "2020-05-19T18:00:00.000+00:00",
+			"endDate": "2020-05-19T18:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "7",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "7",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T18:30:36.552+00:00",
+			"startDate": "2020-05-19T18:15:00.000+00:00",
+			"endDate": "2020-05-19T18:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 461
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "7",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "7",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "7",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T18:45:32.481+00:00",
+			"startDate": "2020-05-19T18:30:00.000+00:00",
+			"endDate": "2020-05-19T18:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": null
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "7",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "7",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "7",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T19:00:32.596+00:00",
+			"startDate": "2020-05-19T18:45:00.000+00:00",
+			"endDate": "2020-05-19T18:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": null
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "7",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "7",
+					"minute": "7"
+				},
+				{
+					"total": "7",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "7",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 696,
+			"totalCycle": 116,
+			"c": 7.73,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T19:15:32.561+00:00",
+			"startDate": "2020-05-19T19:00:00.000+00:00",
+			"endDate": "2020-05-19T19:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": null
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "7",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "7",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T19:30:32.678+00:00",
+			"startDate": "2020-05-19T19:15:00.000+00:00",
+			"endDate": "2020-05-19T19:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": null
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "7",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "7",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T19:45:32.065+00:00",
+			"startDate": "2020-05-19T19:30:00.000+00:00",
+			"endDate": "2020-05-19T19:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": null
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "7",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "7",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "7",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T20:00:45.780+00:00",
+			"startDate": "2020-05-19T19:45:00.000+00:00",
+			"endDate": "2020-05-19T19:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": null
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "7",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "7",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T20:15:32.075+00:00",
+			"startDate": "2020-05-19T20:00:00.000+00:00",
+			"endDate": "2020-05-19T20:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "7",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "7",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "7",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T20:30:32.964+00:00",
+			"startDate": "2020-05-19T20:15:00.000+00:00",
+			"endDate": "2020-05-19T20:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "7",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "7",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "7",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T20:45:38.515+00:00",
+			"startDate": "2020-05-19T20:30:00.000+00:00",
+			"endDate": "2020-05-19T20:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "7",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "7",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "7",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T21:16:46.904+00:00",
+			"startDate": "2020-05-19T20:45:00.000+00:00",
+			"endDate": "2020-05-19T20:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "7",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "7",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T21:31:46.694+00:00",
+			"startDate": "2020-05-19T21:00:00.000+00:00",
+			"endDate": "2020-05-19T21:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "7",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "7",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "7",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T21:30:35.410+00:00",
+			"startDate": "2020-05-19T21:15:00.000+00:00",
+			"endDate": "2020-05-19T21:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "7",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "7",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T21:45:32.198+00:00",
+			"startDate": "2020-05-19T21:30:00.000+00:00",
+			"endDate": "2020-05-19T21:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "7",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "7",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T22:00:32.325+00:00",
+			"startDate": "2020-05-19T21:45:00.000+00:00",
+			"endDate": "2020-05-19T21:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "7",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "7",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T22:15:32.938+00:00",
+			"startDate": "2020-05-19T22:00:00.000+00:00",
+			"endDate": "2020-05-19T22:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "7",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "7",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T22:30:34.437+00:00",
+			"startDate": "2020-05-19T22:15:00.000+00:00",
+			"endDate": "2020-05-19T22:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "7",
+					"minute": "32"
+				},
+				{
+					"total": "7",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "7",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T22:45:32.720+00:00",
+			"startDate": "2020-05-19T22:30:00.000+00:00",
+			"endDate": "2020-05-19T22:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "7",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "7",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "7",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 696,
+			"totalCycle": 116,
+			"c": 7.73,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T23:00:34.657+00:00",
+			"startDate": "2020-05-19T22:45:00.000+00:00",
+			"endDate": "2020-05-19T22:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "7",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "7",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T23:15:33.160+00:00",
+			"startDate": "2020-05-19T23:00:00.000+00:00",
+			"endDate": "2020-05-19T23:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "7",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "7",
+					"minute": "26"
+				},
+				{
+					"total": "8",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-19T23:30:36.029+00:00",
+			"startDate": "2020-05-19T23:15:00.000+00:00",
+			"endDate": "2020-05-19T23:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "7",
+					"minute": "32"
+				},
+				{
+					"total": "8",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "7",
+					"minute": "37"
+				},
+				{
+					"total": "0",
+					"minute": "38"
+				},
+				{
+					"total": "0",
+					"minute": "39"
+				},
+				{
+					"total": "0",
+					"minute": "40"
+				},
+				{
+					"total": "0",
+					"minute": "41"
+				},
+				{
+					"total": "0",
+					"minute": "42"
+				},
+				{
+					"total": "0",
+					"minute": "43"
+				},
+				{
+					"total": "0",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 372,
+			"totalCycle": 62,
+			"c": 4.13,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 321,
+			"ev": 321,
+			"at": 11,
+			"oat": 11,
+			"cd": "2020-05-19T23:45:32.664+00:00",
+			"startDate": "2020-05-19T23:30:00.000+00:00",
+			"endDate": "2020-05-19T23:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "0",
+					"minute": "45"
+				},
+				{
+					"total": "5",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "7",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "7",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "7",
+					"minute": "58"
+				},
+				{
+					"total": "7",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 630,
+			"totalCycle": 105,
+			"c": 7,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T00:00:32.798+00:00",
+			"startDate": "2020-05-19T23:45:00.000+00:00",
+			"endDate": "2020-05-19T23:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "7",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "7",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T00:15:32.310+00:00",
+			"startDate": "2020-05-20T00:00:00.000+00:00",
+			"endDate": "2020-05-20T00:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "15"
+				},
+				{
+					"total": "7",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "8",
+					"minute": "21"
+				},
+				{
+					"total": "7",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "7",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "1",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 660,
+			"totalCycle": 110,
+			"c": 7.33,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T00:30:31.071+00:00",
+			"startDate": "2020-05-20T00:15:00.000+00:00",
+			"endDate": "2020-05-20T00:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "0",
+					"minute": "30"
+				},
+				{
+					"total": "1",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "0",
+					"minute": "33"
+				},
+				{
+					"total": "0",
+					"minute": "34"
+				},
+				{
+					"total": "0",
+					"minute": "35"
+				},
+				{
+					"total": "0",
+					"minute": "36"
+				},
+				{
+					"total": "7",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "7",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "8",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 426,
+			"totalCycle": 71,
+			"c": 4.73,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 321,
+			"ev": 321,
+			"at": 11,
+			"oat": 11,
+			"cd": "2020-05-20T00:45:31.656+00:00",
+			"startDate": "2020-05-20T00:30:00.000+00:00",
+			"endDate": "2020-05-20T00:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 471
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "45"
+				},
+				{
+					"total": "7",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "7",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "7",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 696,
+			"totalCycle": 116,
+			"c": 7.73,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T01:00:32.375+00:00",
+			"startDate": "2020-05-20T00:45:00.000+00:00",
+			"endDate": "2020-05-20T00:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "7",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "7",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "7",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T01:15:32.050+00:00",
+			"startDate": "2020-05-20T01:00:00.000+00:00",
+			"endDate": "2020-05-20T01:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "7",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "7",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T01:30:32.226+00:00",
+			"startDate": "2020-05-20T01:15:00.000+00:00",
+			"endDate": "2020-05-20T01:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "7",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "8",
+					"minute": "38"
+				},
+				{
+					"total": "7",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "7",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T01:45:31.599+00:00",
+			"startDate": "2020-05-20T01:30:00.000+00:00",
+			"endDate": "2020-05-20T01:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "8",
+					"minute": "49"
+				},
+				{
+					"total": "7",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "6",
+					"minute": "52"
+				},
+				{
+					"total": "2",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "8",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "7",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 660,
+			"totalCycle": 110,
+			"c": 7.33,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T02:00:33.571+00:00",
+			"startDate": "2020-05-20T01:45:00.000+00:00",
+			"endDate": "2020-05-20T01:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "7",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "8",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "7",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "7",
+					"minute": "10"
+				},
+				{
+					"total": "8",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T02:15:32.195+00:00",
+			"startDate": "2020-05-20T02:00:00.000+00:00",
+			"endDate": "2020-05-20T02:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "15"
+				},
+				{
+					"total": "8",
+					"minute": "16"
+				},
+				{
+					"total": "8",
+					"minute": "17"
+				},
+				{
+					"total": "8",
+					"minute": "18"
+				},
+				{
+					"total": "8",
+					"minute": "19"
+				},
+				{
+					"total": "8",
+					"minute": "20"
+				},
+				{
+					"total": "7",
+					"minute": "21"
+				},
+				{
+					"total": "8",
+					"minute": "22"
+				},
+				{
+					"total": "8",
+					"minute": "23"
+				},
+				{
+					"total": "8",
+					"minute": "24"
+				},
+				{
+					"total": "8",
+					"minute": "25"
+				},
+				{
+					"total": "8",
+					"minute": "26"
+				},
+				{
+					"total": "7",
+					"minute": "27"
+				},
+				{
+					"total": "8",
+					"minute": "28"
+				},
+				{
+					"total": "8",
+					"minute": "29"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T02:30:32.323+00:00",
+			"startDate": "2020-05-20T02:15:00.000+00:00",
+			"endDate": "2020-05-20T02:29:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "30"
+				},
+				{
+					"total": "8",
+					"minute": "31"
+				},
+				{
+					"total": "8",
+					"minute": "32"
+				},
+				{
+					"total": "7",
+					"minute": "33"
+				},
+				{
+					"total": "8",
+					"minute": "34"
+				},
+				{
+					"total": "8",
+					"minute": "35"
+				},
+				{
+					"total": "8",
+					"minute": "36"
+				},
+				{
+					"total": "8",
+					"minute": "37"
+				},
+				{
+					"total": "7",
+					"minute": "38"
+				},
+				{
+					"total": "8",
+					"minute": "39"
+				},
+				{
+					"total": "8",
+					"minute": "40"
+				},
+				{
+					"total": "8",
+					"minute": "41"
+				},
+				{
+					"total": "8",
+					"minute": "42"
+				},
+				{
+					"total": "8",
+					"minute": "43"
+				},
+				{
+					"total": "7",
+					"minute": "44"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T02:45:31.864+00:00",
+			"startDate": "2020-05-20T02:30:00.000+00:00",
+			"endDate": "2020-05-20T02:44:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "8",
+					"minute": "45"
+				},
+				{
+					"total": "8",
+					"minute": "46"
+				},
+				{
+					"total": "8",
+					"minute": "47"
+				},
+				{
+					"total": "8",
+					"minute": "48"
+				},
+				{
+					"total": "7",
+					"minute": "49"
+				},
+				{
+					"total": "8",
+					"minute": "50"
+				},
+				{
+					"total": "8",
+					"minute": "51"
+				},
+				{
+					"total": "8",
+					"minute": "52"
+				},
+				{
+					"total": "8",
+					"minute": "53"
+				},
+				{
+					"total": "8",
+					"minute": "54"
+				},
+				{
+					"total": "7",
+					"minute": "55"
+				},
+				{
+					"total": "8",
+					"minute": "56"
+				},
+				{
+					"total": "8",
+					"minute": "57"
+				},
+				{
+					"total": "8",
+					"minute": "58"
+				},
+				{
+					"total": "8",
+					"minute": "59"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 708,
+			"totalCycle": 118,
+			"c": 7.87,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T03:00:31.814+00:00",
+			"startDate": "2020-05-20T02:45:00.000+00:00",
+			"endDate": "2020-05-20T02:59:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		},
+		{
+			"readings": [
+				{
+					"total": "7",
+					"minute": "0"
+				},
+				{
+					"total": "8",
+					"minute": "1"
+				},
+				{
+					"total": "8",
+					"minute": "2"
+				},
+				{
+					"total": "8",
+					"minute": "3"
+				},
+				{
+					"total": "8",
+					"minute": "4"
+				},
+				{
+					"total": "8",
+					"minute": "5"
+				},
+				{
+					"total": "7",
+					"minute": "6"
+				},
+				{
+					"total": "8",
+					"minute": "7"
+				},
+				{
+					"total": "8",
+					"minute": "8"
+				},
+				{
+					"total": "8",
+					"minute": "9"
+				},
+				{
+					"total": "8",
+					"minute": "10"
+				},
+				{
+					"total": "7",
+					"minute": "11"
+				},
+				{
+					"total": "8",
+					"minute": "12"
+				},
+				{
+					"total": "8",
+					"minute": "13"
+				},
+				{
+					"total": "8",
+					"minute": "14"
+				}
+			],
+			"cav": 6,
+			"icy": 7.80,
+			"total": 702,
+			"totalCycle": 117,
+			"c": 7.80,
+			"si": 531,
+			"ci": 11,
+			"mi": 911,
+			"poi": 3471,
+			"oev": 1,
+			"ev": 1,
+			"at": 1,
+			"oat": 1,
+			"cd": "2020-05-20T03:15:32.247+00:00",
+			"startDate": "2020-05-20T03:00:00.000+00:00",
+			"endDate": "2020-05-20T03:14:59.999+00:00",
+			"w": null,
+			"rp": null,
+			"nw": null,
+			"ui": null,
+			"tu": 481
+		}
+		
+	]
+}
