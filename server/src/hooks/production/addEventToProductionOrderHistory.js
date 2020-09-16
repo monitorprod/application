@@ -81,7 +81,7 @@ module.exports = function () {
         [`${activeActionType}`, `${maxActionType}`, `${minActionType}`].some(item => item == `${data.at}`) &&
         lodash.find(data.r, r => `${r.t}` === `${0}`);
 
-      if (ProductionContainingZerosinReadings) {
+      if (ProductionContainingZerosinReadings || data.tr == 0) { //new mpx device send intervals with allZeros
         // console.log('previus', summary[previousIndex])
         // console.log('next', summary[nextIndex])
 
@@ -97,6 +97,7 @@ module.exports = function () {
         );
 
         const notificationTimeMIN = lodash.get(context, "$plant.notificationTimeMIN") || 1;
+        console.log('splitting by zero')
         let rh = new ReadingHandler(data);
         let splitByZeros = rh.splitByZeros().groupedByZeros;
 

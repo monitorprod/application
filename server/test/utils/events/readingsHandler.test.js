@@ -152,6 +152,13 @@ let sampleData2 = {
     "sd": "2020-05-29T08:15:00.000",
     "ed": "2020-05-29T08:29:59.000"
 }
+
+let sampleData3 = {
+    "startDate": "2020-05-21T13:50:53.000Z",
+    "endDate": "2020-05-21T13:54:29.000Z",
+    "allZeros": true,
+    "sensorUUID": "4E0034001757345435383020"
+}
 //ignore lint next line
 let tf = new rHandler({ ...sampleData });
 
@@ -265,7 +272,7 @@ describe('data with 0 in the beggining and big interval => should not split', ()
         formatIntervals('nao justificada', 'nao justificadotipo', true).
         groupedIntervals;
 
-    // result.map(res => console.log(res))
+    // result2.map(res => console.log(res))
 
     it('length of each grouped', () => {
         let toCompare = [];
@@ -279,4 +286,25 @@ describe('data with 0 in the beggining and big interval => should not split', ()
         result2.map(grouped => toCompare.push(grouped.tr));
         assert.deepEqual([43], toCompare)
     });
+});
+
+describe('new data format send by mpx with all zeros', () => {
+    interval = 5; //shouldn't split
+    tf3 = new rHandler({ ...sampleData3 });
+    console.log(tf3)
+    let result3 = tf3.
+        splitByZeros().
+        joinGroupedBasedOnInterval(interval, 4, 1).
+        formatIntervals('nao justificada', 'nao justificadotipo', true).
+        groupedIntervals;
+
+    // result3.map(res => console.log(res))
+
+    it('length of each grouped', () => {
+        let toCompare = [];
+        console.log(result3)
+        result3.map(grouped => toCompare.push(grouped.r.length));
+        assert.deepEqual([4], toCompare)
+    });
+
 });

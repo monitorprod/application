@@ -23,13 +23,23 @@ class readingHandler {
         const createNewGroup = reading => this.groupedByZeros.push([reading]);
         const isTheSameType = (a, b) => (a.t === '0' && b.t === '0') || (a.t != '0' && b.t != '0');
         /* #endregion */
+        /* #region  all zeros handler */
+        if (!this.readings) {
+           let timeLength = moment(this.data.endDate).diff(this.data.startDate, 'minutes');
+           this.readings = [];
+           for (let index = 0; index <= timeLength; index++) {
+               let currentMinute = moment(this.data.startDate).add(index, 'minutes').minutes();
+               this.readings.push({m: currentMinute, t: 0})
+           }
+        }
+        /* #endregion */
         let previous;
         let counter = 0;
         this.readings.map(reading => {
             if (this.groupedByZeros.length === 0) { //save first always
                 this.groupedByZeros.push([reading]);
                 counter++;
-            } else {//compare to last saved minute to group together or create new groupe
+            } else {//compare to last saved minute to group together or create new group
                 if (isTheSameType(previous, reading))
                     updateLastGroup(reading)
                 else {
@@ -77,10 +87,10 @@ class readingHandler {
             }
             else {
                 if (isLastWithOnlyZeros(group, index)) {
-                    if (previous.length + (initialZeros || 0) < interval){
+                    if (previous.length + (initialZeros || 0) < interval) {
                         updateLastGroup(group);
                     }
-                    else{
+                    else {
                         createNewGroup(group);
                     }
                 }
