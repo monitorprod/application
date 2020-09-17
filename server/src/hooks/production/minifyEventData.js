@@ -256,6 +256,8 @@ module.exports = function () {
             ci: data.ci,
             // machine // TODO ADD moldId and productId to reduce the populates!!!
             mi: machineId,
+            // allZeros
+            az: data.allZeros || false,
             // productionOrder
             poi: lodash.get(productionOrder, "id"),
             // original productionOrderEventType
