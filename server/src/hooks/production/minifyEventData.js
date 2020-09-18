@@ -282,6 +282,8 @@ module.exports = function () {
             rp: data.restoredProduction,
             // noise warning
             nw: data.noiseWarning,
+            // no power
+            np: data.noPower,
             // user
             ui: userId || lodash.get(params, "connection.payload.userId"),
             // turn
