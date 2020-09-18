@@ -1,4 +1,5 @@
 const assert = require('assert');
+const addEventToProductionOrderHistory = require('../../../src/hooks/production/addEventToProductionOrderHistory');
 const rHandler = require('../../../src/utils/events/readingHandler');
 
 let sampleData = {
@@ -154,157 +155,222 @@ let sampleData2 = {
 }
 
 let sampleData3 = {
-    "startDate": "2020-05-21T13:50:53.000Z",
-    "endDate": "2020-05-21T13:54:29.000Z",
-    "allZeros": true,
+    "sd": "2020-05-21T13:58:53.000Z",
+    "ed": "2020-05-21T14:02:29.000Z",
+    "az": true,
     "sensorUUID": "4E0034001757345435383020"
 }
 //ignore lint next line
 let tf = new rHandler({ ...sampleData });
+describe('grupor bacaninha', () => {
+    describe('readingHandler: group r by at least 3 consecutive zeros', () => {
 
-describe('group r by at least 3 consecutive zeros', () => {
+        // addEventToProductionOrderHistory()({
+        //     app: {
+        //         service: (serviceName) => {
+        //             let result;
+        //             switch (serviceName) {
+        //                 case "production_order_event_types": //query
+        //                     result = [mockEvenProdcution, mockEventNotJustify, event3]
+        //                     break;
+        //                 case "summary": //find
+        //                     result = [{
+        //                         "_id": ObjectId("5c5c527a99d2ad24ace77689"),
+        //                         "ci": 11,
+        //                         "mi": 441,
+        //                         "poi": 1291,
+        //                         "cav": [
+        //                             {
+        //                                 "d": ISODate("2019-02-07T13:44:58.217-02:00"),
+        //                                 "cav": "2"
+        //                             },
+        //                             {
+        //                                 "d": ISODate("2019-02-14T19:32:20.296-02:00"),
+        //                                 "cav": 1
+        //                             }
+        //                         ],
+        //                         "icy": [
+        //                             {
+        //                                 "d": ISODate("2019-02-07T13:44:58.217-02:00"),
+        //                                 "icy": "6"
+        //                             }
+        //                         ],
+        //                         "ev": [
+        //                             {
+        //                                 "ev": 1, //instancia / subgroupo
+        //                                 "at": 1, //classe / groupo
+        //                                 "sd": "2019-02-10T13:15:00.004Z",
+        //                                 "ed": "2019-02-10T13:25:41.736Z"
+        //                             },
+        //                             {
+        //                                 "ev": -1,
+        //                                 "at": -1,
+        //                                 "sd": "2019-02-10T13:25:41.736Z",
+        //                                 "ed": "2019-02-10T13:39:45.851Z"
+        //                             },
+        //                             {
+        //                                 "ev": 51,
+        //                                 "at": 41,
+        //                                 "sd": "2019-02-10T13:39:45.851Z",
+        //                                 "ed": "2019-02-10T13:39:45.851Z"
+        //                             }
+        //                         ],
+        //                         "companyUUID": "55017960-fe32-11e8-b860-8f0740c6ffee",
+        //                         "ed": ISODate("2019-02-10T11:39:45.851-02:00"),
+        //                         "sd": ISODate("2019-02-10T11:15:00.004-02:00")
+        //                     }
+        //                     ]
+        //             }
+        //             return {
+        //                 find: async () => result,
+        //                 path: async () => { },
+        //             }
+        //         }
+        //     }
+        // })
 
-    const interval = 3;
-    let splitByZeros = tf.splitByZeros().groupedByZeros;
-    let result = tf.
-        joinGroupedBasedOnInterval(interval).
-        formatIntervals('nao justificada', 'nao justificadotipo', true).
-        groupedIntervals;
+        const interval = 3;
+        let splitByZeros = tf.splitByZeros().groupedByZeros;
+        let result = tf.
+            joinGroupedBasedOnInterval(interval).
+            formatIntervals('nao justificada', 'nao justificadotipo', true).
+            groupedIntervals;
 
-    it('length of each grouped', () => {
-        let toCompare = [];
+        it('length of each grouped', () => {
+            let toCompare = [];
+            // console.log(result)
+            result.map(grouped => toCompare.push(grouped.r.length));
+            assert.deepStrictEqual([1, 5, 2, 3, 4], toCompare)
+        })
+
+        it('groups with/without Zeros in it', () => {
+            let toCompare = [];
+            result.map(grouped => toCompare.push(grouped.r[0].t === '0'));
+            assert.deepStrictEqual([false, true, false, true, false], toCompare)
+        });
+
+        it('r r counters per group', () => {
+            let toCompare = [];
+            result.map(grouped => toCompare.push(grouped.tr));
+            assert.deepStrictEqual([1, 0, 5, 0, 5], toCompare)
+        });
+
+        it('added fz at the end of group', () => {
+            assert.strictEqual(result[result.length - 1].fz, 2)
+        });
+
         // console.log(result)
-        result.map(grouped => toCompare.push(grouped.r.length));
-        assert.deepEqual([1, 5, 2, 3, 4], toCompare)
-    })
-
-    it('groups with/without Zeros in it', () => {
-        let toCompare = [];
-        result.map(grouped => toCompare.push(grouped.r[0].t === '0'));
-        assert.deepEqual([false, true, false, true, false], toCompare)
+        // console.log('/////////////////////////////')
     });
 
-    it('r r counters per group', () => {
-        let toCompare = [];
-        result.map(grouped => toCompare.push(grouped.tr));
-        assert.deepEqual([1, 0, 5, 0, 5], toCompare)
+    describe('considering the zeros in previous and next events', () => {
+        const interval = 3;
+        tf2 = new rHandler({ ...sampleData });
+
+        let result2 = tf2.
+            splitByZeros().
+            joinGroupedBasedOnInterval(interval, 4, 1).
+            formatIntervals('nao justificada', 'nao justificadotipo', true).
+            groupedIntervals;
+
+        it('length of each grouped', () => {
+            let toCompare = [];
+            result2.map(grouped => toCompare.push(grouped.r.length));
+            assert.deepStrictEqual([1, 5, 2, 3, 2, 6], toCompare)
+        })
+
+        it('groups with/without Zeros in it', () => {
+            let toCompare = [];
+            result2.map(grouped => toCompare.push(grouped.r[0].t === '0'));
+            assert.deepStrictEqual([false, true, false, true, false, true], toCompare)
+        });
+
+        it('r r counters per group', () => {
+            let toCompare = [];
+            result2.map(grouped => toCompare.push(grouped.tr));
+            assert.deepStrictEqual([1, 0, 5, 0, 5, 0], toCompare)
+        });
+
+        // console.log(result2);
+
     });
 
-    it('added fz at the end of group', () => {
-        assert.equal(result[result.length - 1].fz, 2)
+
+    describe('data with 0 in the beggining => should split in more than one group', () => {
+        let interval = 5;
+        tf2 = new rHandler({ ...sampleData2 });
+        let result = tf2.
+            splitByZeros().
+            joinGroupedBasedOnInterval(interval, 4, 1).
+            formatIntervals('nao justificada', 'nao justificadotipo', true).
+            groupedIntervals;
+
+        // result.map(res => console.log(res))
+
+        it('length of each grouped', () => {
+            let toCompare = [];
+            //console.log(result)
+            result.map(grouped => toCompare.push(grouped.r.length));
+            assert.deepStrictEqual([5, 11], toCompare)
+        });
+
+        it('groups with/without Zeros in it', () => {
+            let toCompare = [];
+            result.map(grouped => toCompare.push(grouped.r[0].t === '0'));
+            assert.deepStrictEqual([true, false], toCompare)
+        });
+
+        it('r r counters per group', () => {
+            let toCompare = [];
+            result.map(grouped => toCompare.push(grouped.tr));
+            assert.deepStrictEqual([0, 43], toCompare)
+        });
     });
 
-    // console.log(result)
-    // console.log('/////////////////////////////')
-});
+    describe('data with 0 in the beggining and big interval => should not split', () => {
 
-describe('considering the zeros in previous and next events', () => {
-    const interval = 3;
-    tf2 = new rHandler({ ...sampleData });
+        interval = 6; //shouldn't split
+        tf2 = new rHandler({ ...sampleData2 });
+        let result2 = tf2.
+            splitByZeros().
+            joinGroupedBasedOnInterval(interval, 4, 1).
+            formatIntervals('nao justificada', 'nao justificadotipo', true).
+            groupedIntervals;
 
-    let result2 = tf2.
-        splitByZeros().
-        joinGroupedBasedOnInterval(interval, 4, 1).
-        formatIntervals('nao justificada', 'nao justificadotipo', true).
-        groupedIntervals;
+        // result2.map(res => console.log(res))
 
-    it('length of each grouped', () => {
-        let toCompare = [];
-        result2.map(grouped => toCompare.push(grouped.r.length));
-        assert.deepEqual([1, 5, 2, 3, 2, 6], toCompare)
-    })
+        it('length of each grouped', () => {
+            let toCompare = [];
+            //console.log(result)
+            result2.map(grouped => toCompare.push(grouped.r.length));
+            assert.deepStrictEqual([15], toCompare)
+        });
 
-    it('groups with/without Zeros in it', () => {
-        let toCompare = [];
-        result2.map(grouped => toCompare.push(grouped.r[0].t === '0'));
-        assert.deepEqual([false, true, false, true, false, true], toCompare)
+        it('r r counters per group', () => {
+            let toCompare = [];
+            result2.map(grouped => toCompare.push(grouped.tr));
+            assert.deepStrictEqual([43], toCompare)
+        });
     });
 
-    it('r r counters per group', () => {
-        let toCompare = [];
-        result2.map(grouped => toCompare.push(grouped.tr));
-        assert.deepEqual([1, 0, 5, 0, 5, 0], toCompare)
+    describe('new data format send by mpx with all zeros', () => {
+        interval = 5; //shouldn't split
+        tf3 = new rHandler({ ...sampleData3 });
+        // console.log(tf3)
+        let result3 = tf3.
+            splitByZeros().
+            joinGroupedBasedOnInterval(interval, 4, 1).
+            formatIntervals('nao justificada', 'nao justificadotipo', true).
+            groupedIntervals;
+
+        // result3.map(res => console.log(res))
+
+        it('length of each grouped', () => {
+            let toCompare = [];
+            // console.log(result3)
+            result3.map(grouped => toCompare.push(grouped.r.length));
+            assert.deepStrictEqual([5], toCompare)
+        });
+
     });
-
-    // console.log(result2);
-
-});
-
-
-describe('data with 0 in the beggining => should split in more than one group', () => {
-    let interval = 5;
-    tf2 = new rHandler({ ...sampleData2 });
-    let result = tf2.
-        splitByZeros().
-        joinGroupedBasedOnInterval(interval, 4, 1).
-        formatIntervals('nao justificada', 'nao justificadotipo', true).
-        groupedIntervals;
-
-    // result.map(res => console.log(res))
-
-    it('length of each grouped', () => {
-        let toCompare = [];
-        //console.log(result)
-        result.map(grouped => toCompare.push(grouped.r.length));
-        assert.deepEqual([5, 11], toCompare)
-    });
-
-    it('groups with/without Zeros in it', () => {
-        let toCompare = [];
-        result.map(grouped => toCompare.push(grouped.r[0].t === '0'));
-        assert.deepEqual([true, false], toCompare)
-    });
-
-    it('r r counters per group', () => {
-        let toCompare = [];
-        result.map(grouped => toCompare.push(grouped.tr));
-        assert.deepEqual([0, 43], toCompare)
-    });
-});
-
-describe('data with 0 in the beggining and big interval => should not split', () => {
-
-    interval = 6; //shouldn't split
-    tf2 = new rHandler({ ...sampleData2 });
-    let result2 = tf2.
-        splitByZeros().
-        joinGroupedBasedOnInterval(interval, 4, 1).
-        formatIntervals('nao justificada', 'nao justificadotipo', true).
-        groupedIntervals;
-
-    // result2.map(res => console.log(res))
-
-    it('length of each grouped', () => {
-        let toCompare = [];
-        //console.log(result)
-        result2.map(grouped => toCompare.push(grouped.r.length));
-        assert.deepEqual([15], toCompare)
-    });
-
-    it('r r counters per group', () => {
-        let toCompare = [];
-        result2.map(grouped => toCompare.push(grouped.tr));
-        assert.deepEqual([43], toCompare)
-    });
-});
-
-describe('new data format send by mpx with all zeros', () => {
-    interval = 5; //shouldn't split
-    tf3 = new rHandler({ ...sampleData3 });
-    console.log(tf3)
-    let result3 = tf3.
-        splitByZeros().
-        joinGroupedBasedOnInterval(interval, 4, 1).
-        formatIntervals('nao justificada', 'nao justificadotipo', true).
-        groupedIntervals;
-
-    // result3.map(res => console.log(res))
-
-    it('length of each grouped', () => {
-        let toCompare = [];
-        console.log(result3)
-        result3.map(grouped => toCompare.push(grouped.r.length));
-        assert.deepEqual([4], toCompare)
-    });
-
 });

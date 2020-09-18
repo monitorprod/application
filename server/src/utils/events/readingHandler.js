@@ -1,5 +1,60 @@
 const moment = require('moment');
 
+// interface readingMinute {
+//     t: number,
+//     m: number
+// }
+
+// interface eventData {
+//     // readings
+//     r?: readingMinute,
+//     // open cavities
+//     cav: number,
+//     // ideal cycle
+//     icy: number,
+//     // total production
+//     t: number,
+//     // total readings
+//     tr: number,
+//     // average cycle reading
+//     c: number,
+//     // sensor
+//     si: number,
+//     // company
+//     ci: number,
+//     // machine // TODO ADD moldId and productId to reduce the populates!!!
+//     mi: number,
+//     // allZeros
+//     az?: boolean,
+//     // productionOrder
+//     poi: number,
+//     // original productionOrderEventType
+//     oev: number,
+//     // productionOrderEventType => events list "PARADA PROGRAMADA MANUTENÇÂO MECÂNICA"
+//     ev: number,
+//     // productionOrderActionType => event type "PARADA PROGRAMADA"
+//     at: number,
+//     // original productionOrderActionType
+//     oat: number,
+//     // currentDate
+//     cd: date,
+//     // startDate
+//     sd: date,
+//     // endDate
+//     ed: date,
+//     // warning flag
+//     w?: boolean,
+//     // restored production
+//     rp?: boolean,
+//     // noise warning
+//     nw?: boolean,
+//     // user
+//     ui?: number,
+//     // turn
+//     tu?: number,
+// }
+
+
 class readingHandler {
 
     constructor(data) {
@@ -10,6 +65,7 @@ class readingHandler {
         this.groupedByInterval = [];//split in groups with at least n zeros
         this.groupedIntervals = [];//formatted groups of data with all props
         this.data = data;//everything expect readings prop
+        this.allZeros = data.az;
         delete this.data.r;
     }
 
@@ -24,13 +80,13 @@ class readingHandler {
         const isTheSameType = (a, b) => (a.t === '0' && b.t === '0') || (a.t != '0' && b.t != '0');
         /* #endregion */
         /* #region  all zeros handler */
-        if (!this.readings) {
-           let timeLength = moment(this.data.endDate).diff(this.data.startDate, 'minutes');
-           this.readings = [];
-           for (let index = 0; index <= timeLength; index++) {
-               let currentMinute = moment(this.data.startDate).add(index, 'minutes').minutes();
-               this.readings.push({m: currentMinute, t: 0})
-           }
+        if (this.allZeros) {
+            let timeLength = moment(this.data.ed).diff(this.data.sd, 'minutes');
+            this.readings = [];
+            for (let index = 0; index <= timeLength + 1; index++) {
+                let currentMinute = moment(this.data.sd).add(index, 'minutes').minutes();
+                this.readings.push({ m: currentMinute, t: 0 })
+            }
         }
         /* #endregion */
         let previous;
