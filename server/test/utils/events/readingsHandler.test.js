@@ -1,4 +1,5 @@
 const assert = require('assert');
+const addEventToProductionOrderHistory = require('../../../src/hooks/production/addEventToProductionOrderHistory');
 const rHandler = require('../../../src/utils/events/readingHandler');
 
 let sampleData = {
@@ -152,131 +153,161 @@ let sampleData2 = {
     "sd": "2020-05-29T08:15:00.000",
     "ed": "2020-05-29T08:29:59.000"
 }
+
+let sampleData3 = {
+    "sd": "2020-05-21T13:58:53.000Z",
+    "ed": "2020-05-21T14:02:29.000Z",
+    "az": true,
+    "sensorUUID": "4E0034001757345435383020"
+}
 //ignore lint next line
 let tf = new rHandler({ ...sampleData });
+describe('grupor bacaninha', () => {
+    describe('readingHandler: group r by at least 3 consecutive zeros', () => {
+        const interval = 3;
+        let splitByZeros = tf.splitByZeros().groupedByZeros;
+        console.log(splitByZeros)
+        let result = tf.
+            joinGroupedBasedOnInterval(interval).
+            formatIntervals('nao justificada', 'nao justificadotipo', true).
+            groupedIntervals;
 
-describe('group r by at least 3 consecutive zeros', () => {
+        it('length of each grouped', () => {
+            let toCompare = [];
+            // console.log(result)
+            result.map(grouped => toCompare.push(grouped.r.length));
+            assert.deepStrictEqual([1, 5, 2, 3, 4], toCompare)
+        })
 
-    const interval = 3;
-    let splitByZeros = tf.splitByZeros().groupedByZeros;
-    let result = tf.
-        joinGroupedBasedOnInterval(interval).
-        formatIntervals('nao justificada', 'nao justificadotipo', true).
-        groupedIntervals;
+        it('groups with/without Zeros in it', () => {
+            let toCompare = [];
+            result.map(grouped => toCompare.push(grouped.r[0].t === '0'));
+            assert.deepStrictEqual([false, true, false, true, false], toCompare)
+        });
 
-    it('length of each grouped', () => {
-        let toCompare = [];
+        it('r r counters per group', () => {
+            let toCompare = [];
+            result.map(grouped => toCompare.push(grouped.tr));
+            assert.deepStrictEqual([1, 0, 5, 0, 5], toCompare)
+        });
+
+        it('added fz at the end of group', () => {
+            assert.strictEqual(result[result.length - 1].fz, 2)
+        });
+
         // console.log(result)
-        result.map(grouped => toCompare.push(grouped.r.length));
-        assert.deepEqual([1, 5, 2, 3, 4], toCompare)
-    })
-
-    it('groups with/without Zeros in it', () => {
-        let toCompare = [];
-        result.map(grouped => toCompare.push(grouped.r[0].t === '0'));
-        assert.deepEqual([false, true, false, true, false], toCompare)
+        // console.log('/////////////////////////////')
     });
 
-    it('r r counters per group', () => {
-        let toCompare = [];
-        result.map(grouped => toCompare.push(grouped.tr));
-        assert.deepEqual([1, 0, 5, 0, 5], toCompare)
+    describe('considering the zeros in previous and next events', () => {
+        const interval = 3;
+        tf2 = new rHandler({ ...sampleData });
+
+        let result2 = tf2.
+            splitByZeros().
+            joinGroupedBasedOnInterval(interval, 4, 1).
+            formatIntervals('nao justificada', 'nao justificadotipo', true).
+            groupedIntervals;
+
+        it('length of each grouped', () => {
+            let toCompare = [];
+            result2.map(grouped => toCompare.push(grouped.r.length));
+            assert.deepStrictEqual([1, 5, 2, 3, 2, 6], toCompare)
+        })
+
+        it('groups with/without Zeros in it', () => {
+            let toCompare = [];
+            result2.map(grouped => toCompare.push(grouped.r[0].t === '0'));
+            assert.deepStrictEqual([false, true, false, true, false, true], toCompare)
+        });
+
+        it('r r counters per group', () => {
+            let toCompare = [];
+            result2.map(grouped => toCompare.push(grouped.tr));
+            assert.deepStrictEqual([1, 0, 5, 0, 5, 0], toCompare)
+        });
+
+        // console.log(result2);
+
     });
 
-    it('added fz at the end of group', () => {
-        assert.equal(result[result.length - 1].fz, 2)
+
+    describe('data with 0 in the beggining => should split in more than one group', () => {
+        let interval = 5;
+        tf2 = new rHandler({ ...sampleData2 });
+        let result = tf2.
+            splitByZeros().
+            joinGroupedBasedOnInterval(interval, 4, 1).
+            formatIntervals('nao justificada', 'nao justificadotipo', true).
+            groupedIntervals;
+
+        // result.map(res => console.log(res))
+
+        it('length of each grouped', () => {
+            let toCompare = [];
+            //console.log(result)
+            result.map(grouped => toCompare.push(grouped.r.length));
+            assert.deepStrictEqual([5, 11], toCompare)
+        });
+
+        it('groups with/without Zeros in it', () => {
+            let toCompare = [];
+            result.map(grouped => toCompare.push(grouped.r[0].t === '0'));
+            assert.deepStrictEqual([true, false], toCompare)
+        });
+
+        it('r r counters per group', () => {
+            let toCompare = [];
+            result.map(grouped => toCompare.push(grouped.tr));
+            assert.deepStrictEqual([0, 43], toCompare)
+        });
     });
 
-    // console.log(result)
-    // console.log('/////////////////////////////')
-});
+    describe('data with 0 in the beggining and big interval => should not split', () => {
 
-describe('considering the zeros in previous and next events', () => {
-    const interval = 3;
-    tf2 = new rHandler({ ...sampleData });
+        interval = 6; //shouldn't split
+        tf2 = new rHandler({ ...sampleData2 });
+        let result2 = tf2.
+            splitByZeros().
+            joinGroupedBasedOnInterval(interval, 4, 1).
+            formatIntervals('nao justificada', 'nao justificadotipo', true).
+            groupedIntervals;
 
-    let result2 = tf2.
-        splitByZeros().
-        joinGroupedBasedOnInterval(interval, 4, 1).
-        formatIntervals('nao justificada', 'nao justificadotipo', true).
-        groupedIntervals;
+        // result2.map(res => console.log(res))
 
-    it('length of each grouped', () => {
-        let toCompare = [];
-        result2.map(grouped => toCompare.push(grouped.r.length));
-        assert.deepEqual([1, 5, 2, 3, 2, 6], toCompare)
-    })
+        it('length of each grouped', () => {
+            let toCompare = [];
+            // console.log('2 =>', result2)
+            result2.map(grouped => toCompare.push(grouped.r.length));
+            assert.deepStrictEqual([15], toCompare)
+        });
 
-    it('groups with/without Zeros in it', () => {
-        let toCompare = [];
-        result2.map(grouped => toCompare.push(grouped.r[0].t === '0'));
-        assert.deepEqual([false, true, false, true, false, true], toCompare)
+        it('r r counters per group', () => {
+            let toCompare = [];
+            result2.map(grouped => toCompare.push(grouped.tr));
+            assert.deepStrictEqual([43], toCompare)
+        });
     });
 
-    it('r r counters per group', () => {
-        let toCompare = [];
-        result2.map(grouped => toCompare.push(grouped.tr));
-        assert.deepEqual([1, 0, 5, 0, 5, 0], toCompare)
-    });
+    describe('new data format send by mpx with all zeros', () => {
+        interval = 5; //shouldn't split
+        tf3 = new rHandler({ ...sampleData3 });
+        let splitByZeros = tf3.splitByZeros().groupedByZeros;
+        // console.log(splitByZeros)
+        let result3 = tf3.
+            // splitByZeros().
+            joinGroupedBasedOnInterval(interval, 4, 1).
+            formatIntervals('nao justificada', 'nao justificadotipo', true).
+            groupedIntervals;
 
-    // console.log(result2);
+        // result3.map(res => console.log(res))
 
-});
+        it('length of each grouped', () => {
+            let toCompare = [];
+            //  console.log('3 =>' ,result3)
+            result3.map(grouped => toCompare.push(grouped.r.length));
+            assert.deepStrictEqual([10], toCompare) // 5 + 4 + 1
+        });
 
-
-describe('data with 0 in the beggining => should split in more than one group', () => {
-    let interval = 5;
-    tf2 = new rHandler({ ...sampleData2 });
-    let result = tf2.
-        splitByZeros().
-        joinGroupedBasedOnInterval(interval, 4, 1).
-        formatIntervals('nao justificada', 'nao justificadotipo', true).
-        groupedIntervals;
-
-    // result.map(res => console.log(res))
-
-    it('length of each grouped', () => {
-        let toCompare = [];
-        //console.log(result)
-        result.map(grouped => toCompare.push(grouped.r.length));
-        assert.deepEqual([5, 11], toCompare)
-    });
-
-    it('groups with/without Zeros in it', () => {
-        let toCompare = [];
-        result.map(grouped => toCompare.push(grouped.r[0].t === '0'));
-        assert.deepEqual([true, false], toCompare)
-    });
-
-    it('r r counters per group', () => {
-        let toCompare = [];
-        result.map(grouped => toCompare.push(grouped.tr));
-        assert.deepEqual([0, 43], toCompare)
-    });
-});
-
-describe('data with 0 in the beggining and big interval => should not split', () => {
-
-    interval = 6; //shouldn't split
-    tf2 = new rHandler({ ...sampleData2 });
-    let result2 = tf2.
-        splitByZeros().
-        joinGroupedBasedOnInterval(interval, 4, 1).
-        formatIntervals('nao justificada', 'nao justificadotipo', true).
-        groupedIntervals;
-
-    // result.map(res => console.log(res))
-
-    it('length of each grouped', () => {
-        let toCompare = [];
-        //console.log(result)
-        result2.map(grouped => toCompare.push(grouped.r.length));
-        assert.deepEqual([15], toCompare)
-    });
-
-    it('r r counters per group', () => {
-        let toCompare = [];
-        result2.map(grouped => toCompare.push(grouped.tr));
-        assert.deepEqual([43], toCompare)
     });
 });

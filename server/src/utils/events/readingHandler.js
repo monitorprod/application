@@ -1,5 +1,60 @@
 const moment = require('moment');
 
+// interface readingMinute {
+//     t: number,
+//     m: number
+// }
+
+// interface eventData {
+//     // readings
+//     r?: readingMinute,
+//     // open cavities
+//     cav: number,
+//     // ideal cycle
+//     icy: number,
+//     // total production
+//     t: number,
+//     // total readings
+//     tr: number,
+//     // average cycle reading
+//     c: number,
+//     // sensor
+//     si: number,
+//     // company
+//     ci: number,
+//     // machine // TODO ADD moldId and productId to reduce the populates!!!
+//     mi: number,
+//     // allZeros
+//     az?: boolean,
+//     // productionOrder
+//     poi: number,
+//     // original productionOrderEventType
+//     oev: number,
+//     // productionOrderEventType => events list "PARADA PROGRAMADA MANUTENÇÂO MECÂNICA"
+//     ev: number,
+//     // productionOrderActionType => event type "PARADA PROGRAMADA"
+//     at: number,
+//     // original productionOrderActionType
+//     oat: number,
+//     // currentDate
+//     cd: date,
+//     // startDate
+//     sd: date,
+//     // endDate
+//     ed: date,
+//     // warning flag
+//     w?: boolean,
+//     // restored production
+//     rp?: boolean,
+//     // noise warning
+//     nw?: boolean,
+//     // user
+//     ui?: number,
+//     // turn
+//     tu?: number,
+// }
+
+
 class readingHandler {
 
     constructor(data) {
@@ -10,6 +65,7 @@ class readingHandler {
         this.groupedByInterval = [];//split in groups with at least n zeros
         this.groupedIntervals = [];//formatted groups of data with all props
         this.data = data;//everything expect readings prop
+        this.allZeros = data.az;
         delete this.data.r;
     }
 
@@ -23,13 +79,24 @@ class readingHandler {
         const createNewGroup = reading => this.groupedByZeros.push([reading]);
         const isTheSameType = (a, b) => (a.t === '0' && b.t === '0') || (a.t != '0' && b.t != '0');
         /* #endregion */
+        /* #region  all zeros handler */
+        if (this.allZeros) {
+            let timeLength = moment(this.data.ed).diff(this.data.sd, 'minutes') + 1;
+            this.readings = [];
+            for (let index = 0; index <= timeLength; index++) {
+                let currentMinute = moment(this.data.sd).add(index, 'minutes').minutes();
+                this.readings.push({ m: currentMinute.toString(), t: '0'})
+            }
+        }
+        // console.log('===>', this.readings)
+        /* #endregion */
         let previous;
         let counter = 0;
         this.readings.map(reading => {
             if (this.groupedByZeros.length === 0) { //save first always
                 this.groupedByZeros.push([reading]);
                 counter++;
-            } else {//compare to last saved minute to group together or create new groupe
+            } else {//compare to last saved minute to group together or create new group
                 if (isTheSameType(previous, reading))
                     updateLastGroup(reading)
                 else {
@@ -39,7 +106,7 @@ class readingHandler {
 
             previous = reading;
         });
-        // console.log('calculated split',this.groupedByZeros);
+        console.log('calculated split',this.groupedByZeros);
         return this;
     }
 
@@ -47,6 +114,7 @@ class readingHandler {
         if (!interval)
             throw "interval in minutes not defined"
 
+            // console.log('////////////////////',interval)
         this.minZerosToBeSplitted = interval;
         /* #region Helper Functions */
         const hasOnlyZeros = timeFrame => {
@@ -77,10 +145,10 @@ class readingHandler {
             }
             else {
                 if (isLastWithOnlyZeros(group, index)) {
-                    if (previous.length + (initialZeros || 0) < interval){
+                    if (previous.length + (initialZeros || 0) < interval) {
                         updateLastGroup(group);
                     }
-                    else{
+                    else {
                         createNewGroup(group);
                     }
                 }
@@ -108,7 +176,6 @@ class readingHandler {
 
         /* #region add next 0 to be computed at the final*/
         if (initialZeros) {
-
             let lastMinute = parseInt(previous[previous.length - 1].m) + 1;
             let newData = Array(initialZeros).fill().map((item, index) => ({ t: '0', m: lastMinute + index < 60 ? (lastMinute + index).toString() : (lastMinute + index - 60).toString() }))
             let shouldAdd = this.groupedByInterval[this.groupedByInterval.length - 1][this.groupedByInterval[this.groupedByInterval.length - 1].length - 1].t === '0'
@@ -194,10 +261,11 @@ class readingHandler {
                 // console.log(initialZeros, finalZeros);
                 return [initialZeros, finalZeros];
             }
+            // console.log('*****',interval)
             endDate = moment(startDate).add(interval.length, 'minute').toDate();
             this.groupedIntervals.push(({
                 ...addReadings(shouldAddReadings, interval),
-                rds: JSON.stringify(interval), //TODO: ONLY FOR TESTING PuRPOSE...
+                //rds: JSON.stringify(interval), //TODO: ONLY FOR TESTING PuRPOSE...
                 ...setCounters(interval),
                 tu: this.data.tu,
                 ui: this.data.ui,

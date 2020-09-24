@@ -36,7 +36,7 @@ app.configure(express.rest());
 app.configure(
   socketio({
     origins:
-      "http://localhost:* https://monitorprod.herokuapp.com:* http://monitorprod.herokuapp.com:* https://www.monitorprod.herokuapp.com:* http://www.monitorprod.herokuapp.com:*"
+      "http://localhost:* https://monitorprod.com.br:* http://monitorprod.com.br:* https://www.monitorprod.com.br:* http://www.monitorprod.com.br:*",
   })
 );
 app.configure(sequelize);

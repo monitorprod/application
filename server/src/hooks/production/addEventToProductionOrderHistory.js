@@ -81,7 +81,7 @@ module.exports = function () {
         [`${activeActionType}`, `${maxActionType}`, `${minActionType}`].some(item => item == `${data.at}`) &&
         lodash.find(data.r, r => `${r.t}` === `${0}`);
 
-      if (ProductionContainingZerosinReadings) {
+      if (ProductionContainingZerosinReadings || data.az) { //new mpx device send intervals with allZeros
         // console.log('previus', summary[previousIndex])
         // console.log('next', summary[nextIndex])
 
@@ -97,6 +97,7 @@ module.exports = function () {
         );
 
         const notificationTimeMIN = lodash.get(context, "$plant.notificationTimeMIN") || 1;
+        console.log('splitting by zero')
         let rh = new ReadingHandler(data);
         let splitByZeros = rh.splitByZeros().groupedByZeros;
 
@@ -187,6 +188,11 @@ module.exports = function () {
               if (shouldLog(ev)) console.log("> skip short event");
               return sum;
             }
+            // skip short no justified
+            // if (EVEndD.diff(EVStartD, "minutes") < notificationTimeMIN && `${ev.at}` === `${noJustifiedActionType}`) {
+            //   if (shouldLog(ev)) console.log("> skip short no justified");
+            //   return sum;
+            // }
             // skip short undefined
             if (EVEndD.diff(EVStartD, "minutes") < 15 && ev.at === -1) {
               if (shouldLog(ev)) console.log("> skip short undefined");
