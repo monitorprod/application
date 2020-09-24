@@ -15,8 +15,8 @@ const setCompanyUUID = async (context) => {
   return context;
 };
 const client = feathers();
-// client.set("cloudURL", "https://www.monitorprod.com.br");
-client.set("cloudURL", "https://monitorprod.herokuapp.com");
+client.set("cloudURL", "https://www.monitorprod.com.br");
+// client.set("cloudURL", "https://monitorprod.herokuapp.com");
 // client.set("cloudURL", "http://localhost:3030");
 const socket = io(client.get("cloudURL"));
 client
