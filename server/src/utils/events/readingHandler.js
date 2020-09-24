@@ -81,13 +81,14 @@ class readingHandler {
         /* #endregion */
         /* #region  all zeros handler */
         if (this.allZeros) {
-            let timeLength = moment(this.data.ed).diff(this.data.sd, 'minutes');
+            let timeLength = moment(this.data.ed).diff(this.data.sd, 'minutes') + 1;
             this.readings = [];
-            for (let index = 0; index <= timeLength + 1; index++) {
+            for (let index = 0; index <= timeLength; index++) {
                 let currentMinute = moment(this.data.sd).add(index, 'minutes').minutes();
-                this.readings.push({ m: currentMinute, t: 0 })
+                this.readings.push({ m: currentMinute.toString(), t: '0'})
             }
         }
+        // console.log('===>', this.readings)
         /* #endregion */
         let previous;
         let counter = 0;
@@ -105,7 +106,7 @@ class readingHandler {
 
             previous = reading;
         });
-        // console.log('calculated split',this.groupedByZeros);
+        console.log('calculated split',this.groupedByZeros);
         return this;
     }
 
@@ -113,6 +114,7 @@ class readingHandler {
         if (!interval)
             throw "interval in minutes not defined"
 
+            // console.log('////////////////////',interval)
         this.minZerosToBeSplitted = interval;
         /* #region Helper Functions */
         const hasOnlyZeros = timeFrame => {
@@ -174,7 +176,6 @@ class readingHandler {
 
         /* #region add next 0 to be computed at the final*/
         if (initialZeros) {
-
             let lastMinute = parseInt(previous[previous.length - 1].m) + 1;
             let newData = Array(initialZeros).fill().map((item, index) => ({ t: '0', m: lastMinute + index < 60 ? (lastMinute + index).toString() : (lastMinute + index - 60).toString() }))
             let shouldAdd = this.groupedByInterval[this.groupedByInterval.length - 1][this.groupedByInterval[this.groupedByInterval.length - 1].length - 1].t === '0'
@@ -260,10 +261,11 @@ class readingHandler {
                 // console.log(initialZeros, finalZeros);
                 return [initialZeros, finalZeros];
             }
+            // console.log('*****',interval)
             endDate = moment(startDate).add(interval.length, 'minute').toDate();
             this.groupedIntervals.push(({
                 ...addReadings(shouldAddReadings, interval),
-                rds: JSON.stringify(interval), //TODO: ONLY FOR TESTING PuRPOSE...
+                //rds: JSON.stringify(interval), //TODO: ONLY FOR TESTING PuRPOSE...
                 ...setCounters(interval),
                 tu: this.data.tu,
                 ui: this.data.ui,
