@@ -48,12 +48,12 @@ module.exports = ({ data, plant }) => {
       year: startD.year(),
       month: startD.month(),
       date: startD.date(),
-    }).subtract(1, "hours");
+    });
     const endT = moment(iTurn.endTime).set({
       year: startD.year(),
       month: startD.month(),
       date: startD.date(),
-    }).subtract(1, "hours");
+    });
     if (startT.isSameOrAfter(endT, "minute")) {
       startT.subtract(1, "days");
     }
