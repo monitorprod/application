@@ -189,10 +189,10 @@ module.exports = function () {
               return sum;
             }
             // skip short no justified
-            // if (EVEndD.diff(EVStartD, "minutes") < notificationTimeMIN && `${ev.at}` === `${noJustifiedActionType}`) {
-            //   if (shouldLog(ev)) console.log("> skip short no justified");
-            //   return sum;
-            // }
+            if (EVEndD.diff(EVStartD, "minutes") < notificationTimeMIN && `${ev.at}` === `${noJustifiedActionType}`) {
+              if (shouldLog(ev)) console.log("> skip short no justified");
+              return sum;
+            }
             // skip short undefined
             if (EVEndD.diff(EVStartD, "minutes") < 15 && ev.at === -1) {
               if (shouldLog(ev)) console.log("> skip short undefined");
