@@ -17,6 +17,7 @@ module.exports = function () {
     const eventTypesService = app.service("production_order_event_types");
     const productionOrderHistoryService = app.service("production_order_history");
     const productionOrderEvents = app.service("production_order_events");
+    const notificationTimeMIN = lodash.get(context, "$plant.notificationTimeMIN") || 1;
     let history, summary;
     try {
       history = lodash.get(
@@ -95,8 +96,6 @@ module.exports = function () {
           }),
           "data.0"
         );
-
-        const notificationTimeMIN = lodash.get(context, "$plant.notificationTimeMIN") || 1;
         console.log('splitting by zero')
         let rh = new ReadingHandler(data);
         let splitByZeros = rh.splitByZeros().groupedByZeros;
@@ -189,10 +188,10 @@ module.exports = function () {
               return sum;
             }
             // skip short no justified
-            // if (EVEndD.diff(EVStartD, "minutes") < notificationTimeMIN && `${ev.at}` === `${noJustifiedActionType}`) {
-            //   if (shouldLog(ev)) console.log("> skip short no justified");
-            //   return sum;
-            // }
+            if (EVEndD.diff(EVStartD, "minutes") < notificationTimeMIN && `${ev.at}` === `${noJustifiedActionType}`) {
+              if (shouldLog(ev)) console.log("> skip short no justified");
+              return sum;
+            }
             // skip short undefined
             if (EVEndD.diff(EVStartD, "minutes") < 15 && ev.at === -1) {
               if (shouldLog(ev)) console.log("> skip short undefined");

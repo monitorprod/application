@@ -52,6 +52,7 @@ module.exports = function () {
       const maxActionType = getActionType({ app, type: "max" });
       const minActionType = getActionType({ app, type: "min" });
       const closedActionType = getActionType({ app, type: "closed" });
+      const noJustifiedActionType = getActionType({ app, type: "noJustified" });
       const scheduledStopActionType = getActionType({
         app,
         type: "scheduledStop"
@@ -241,9 +242,18 @@ module.exports = function () {
         query: {
           name: "FALTA OP",
           companyId: data.companyId,
-          $populateAll: true
+          $populateAll: true,
+          $limit: 1,
         }
       });
+      const { data: noJustifiedEventType } = await eventTypesService.find({
+        query: {
+          companyId: data.companyId,
+          productionOrderActionTypeId: noJustifiedActionType,
+          $populateAll: true,
+          $limit: 1,
+        },
+      })
       // console.time("Promise.all");
       await Promise.all(
         lodash.map(summaries, async (sum = {}) => {
@@ -272,6 +282,26 @@ module.exports = function () {
               await addDifference({ sum, ev, diff });
             })
           );
+          if (sum.w) {
+            const warningD = moment(sum.w);
+            if (
+              warningD.isSameOrAfter(startD, "minute") &&
+              warningD.isSameOrBefore(endD, "minute")
+            ) {
+              const ev = {
+                sum: sum._id.toString(),
+                at: lodash.get(
+                  noJustifiedEventType,
+                  "0.productionOrderActionTypeId"
+                ),
+                ev: lodash.get(noJustifiedEventType, "0.id"),
+                sd: warningD,
+                ed: params.$reportHistory.same ? moment() : moment(endD)
+              }
+              const diff = ev.ed.diff(ev.sd, "minutes");
+              await addDifference({ sum, ev, diff });
+            }
+          }
         })
       );
       // console.timeEnd("Promise.all");
@@ -409,7 +439,6 @@ module.exports = function () {
                 endEVD = moment(ev.ed);
               }
               let diff = moment(endD).diff(endEVD, "minutes");
-
               // console.log(">>> has turn", endEVD.toDate(), hasTurn({ startD: moment(endEVD.toDate()), plant }))
               // let evHasTurn = hasTurn({ startD: moment(endEVD.toDate()), plant })
               const hEV = {
@@ -485,10 +514,17 @@ module.exports = function () {
                 } else if (
                   !isSameEvent({ lastEvent: ev, currentEvent: nextEV })
                 ) {
-                  let diff = moment(startNextEVD).diff(startEVD, "minutes");
-                  ev.ed = startNextEVD.toDate();
-                  ev.diff = diff;
-                  ev.value = [diff];
+                  if (ev.at !== -1 && `${nextEV.at}` === `${noJustifiedActionType}`) {
+                    let diff = moment(endNextEVD).diff(endEVD, "minutes");
+                    nextEV.sd = endEVD.toDate();
+                    nextEV.diff = diff;
+                    nextEV.value = [diff];
+                  } else {
+                    let diff = moment(startNextEVD).diff(startEVD, "minutes");
+                    ev.ed = startNextEVD.toDate();
+                    ev.diff = diff;
+                    ev.value = [diff];
+                  }
                   addMeta({ ev });
                   if (endEVD.isAfter(endNextEVD, "minute")) {
                     let diff = endEVD.diff(endNextEVD, "minutes");
@@ -536,7 +572,6 @@ module.exports = function () {
           }
           if (history.length === 0 && params.$reportHistory.same) {
             const diffEmpty = moment(currentD).diff(startD, "minutes");
-
             // console.log(">>> has turn diffEmpty")
             const hEV = {
               at: -1,

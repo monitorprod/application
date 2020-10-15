@@ -13,12 +13,13 @@ module.exports = function () {
       $currentEvent: currentEvent,
     } = context;
     const notificationsService = app.service("notifications");
+    const productionOrderHistoryService = app.service("production_order_history");
     if (
       machine &&
       productionOrder &&
       (parseFloat(lodash.get(productionOrder, "totalProduction")) || 0) +
-        parseFloat(data.t) >
-        parseFloat(lodash.get(productionOrder, "expectedProduction"))
+      parseFloat(data.t) >
+      parseFloat(lodash.get(productionOrder, "expectedProduction"))
     ) {
       const sendProductionExceededNotification = ({ data: notifications }) => {
         if (!notifications.length) {
@@ -31,7 +32,7 @@ module.exports = function () {
               productionOrderId: data.poi,
             })
             .catch(
-              (error) => {}
+              (error) => { }
               // console.log(">>>> ERROR NOTIFICATION PRODUCTION EXCEEDED", error)
             );
         }
@@ -48,7 +49,7 @@ module.exports = function () {
         })
         .then(sendProductionExceededNotification)
         .catch(
-          (error) => {}
+          (error) => { }
           // console.log(">>>> ERROR NOTIFICATION PRODUCTION EXCEEDED", error)
         );
     }
@@ -73,7 +74,7 @@ module.exports = function () {
                   productionOrderId: data.poi,
                 })
                 .catch(
-                  (error) => {}
+                  (error) => { }
                   // console.log(">>>> ERROR NOTIFICATION NO JUSTIFIED", error)
                 );
             };
@@ -103,7 +104,7 @@ module.exports = function () {
             productionOrderId: data.poi,
           })
           .catch(
-            (error) => {}
+            (error) => { }
             // console.log(">>>> ERROR NOTIFICATION NOISE WARNING", error)
           );
       };
@@ -139,13 +140,33 @@ module.exports = function () {
         })
         .then(trySendNoiseWarningNotification)
         .catch(
-          (error) => {}
+          (error) => { }
           // console.log(">>>> ERROR NOTIFICATION NOISE WARNING", error)
         );
     }
     if (data.rp) {
       clearTimeout(app.get(`${data.mi}-stop`));
       clearTimeout(app.get(`${data.mi}-noise`));
+    }
+    if (data.w || data.rp) {
+      const history = lodash.get(
+        await productionOrderHistoryService.find({
+          query: {
+            poi: data.poi,
+            $limit: 1
+          }
+        }),
+        "data.0"
+      );
+      if (data.w) {
+        await productionOrderHistoryService.patch(history._id, {
+          w: moment(data.sd).toDate()
+        });
+      } else if (data.rp && history.w && moment(data.sd).isSameOrAfter(moment(history.w), "minutes")) {
+        await productionOrderHistoryService.patch(history._id, {
+          w: null
+        });
+      }
     }
     if (data.rp || data.w || data.nw) {
       throw new Error("Notification Created!");
