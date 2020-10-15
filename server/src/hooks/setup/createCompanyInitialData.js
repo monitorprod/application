@@ -46,6 +46,12 @@ module.exports = function() {
             isSystemEvent: true,
             isInProduction: false
           });
+          productionOrderTypesService.create({
+            name: "MÁQUINA DESLIGADA",
+            companyId: result.id,
+            isSystemEvent: true,
+            isInProduction: false
+          });
         }
       }
     });
