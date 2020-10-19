@@ -220,6 +220,7 @@ module.exports = function () {
     }
     let endDate = data.endDate === -1 ? -1 : moment(data.endDate).toDate();
     if (
+      moment(mostRecentEvent.sd).diff(endDate, "minutes") <= 15 &&
       lodash.get(mostRecentEvent, "oed") === -1 &&
       `${mostRecentEvent.ev}` === `${eventTypeId}`
     ) {
