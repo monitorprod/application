@@ -96,7 +96,7 @@ module.exports = function () {
           }),
           "data.0"
         );
-        console.log('splitting by zero')
+        // console.log('splitting by zero')
         let rh = new ReadingHandler(data);
         let splitByZeros = rh.splitByZeros().groupedByZeros;
 
@@ -104,9 +104,9 @@ module.exports = function () {
           joinGroupedBasedOnInterval(notificationTimeMIN).
           formatIntervals(noJustifiedEvent.id, noJustifiedActionType, summary[nextIndex] && summary[nextIndex].iz, summary[previousIndex] && summary[previousIndex].fz).
           groupedIntervals;
-          console.log(eventsToAdd)
-          console.log('antes de processar')
-          console.log(summary[previousIndex], summary[nextIndex])
+          // console.log(eventsToAdd)
+          // console.log('antes de processar')
+          // console.log(summary[previousIndex], summary[nextIndex])
 
         /* #region handle previous event */
         if (summary[previousIndex] && summary[previousIndex].fz) {
@@ -344,10 +344,8 @@ module.exports = function () {
         lastEvent.ed = -1;
       }
       // console.log("!!!!summary", summary);
-      
-      console.log('depois de processar')
-      console.log(summary[previousIndex], summary[nextIndex])
-
+      // console.log('depois de processar')
+      // console.log(summary[previousIndex], summary[nextIndex])
       await productionOrderHistoryService.patch(history._id, {
         sd: moment(firstEvent.sd).toDate(),
         ed: lastEvent.ed === -1 ? -1 : moment(lastEvent.ed).toDate(),
