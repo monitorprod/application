@@ -106,7 +106,7 @@ class readingHandler {
 
             previous = reading;
         });
-        console.log('calculated split',this.groupedByZeros);
+        // console.log('calculated split',this.groupedByZeros);
         return this;
     }
 
