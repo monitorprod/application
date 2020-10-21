@@ -1,6 +1,41 @@
 module.exports = {
   SENSORS_TO_COPY: [
     {
+      sensorUUID: "1A0039001357345331323420", // MPX-01
+      machines: [{
+        sensorUUID: "94defad0-1398-11eb-9ef5-39e2e110b14c",
+        host: "https://monitorprod.com.br"
+      }]
+    },
+    {
+      sensorUUID: "240021001857345435383020", // MPX-02
+      machines: [{
+        sensorUUID: "fdac5b20-1398-11eb-9ef5-39e2e110b14c",
+        host: "https://monitorprod.com.br"
+      }]
+    },
+    {
+      sensorUUID: "360022000351484233363731", // MPX-03
+      machines: [{
+        sensorUUID: "160e44d0-1399-11eb-9ef5-39e2e110b14c",
+        host: "https://monitorprod.com.br"
+      }]
+    },
+    {
+      sensorUUID: "4E0034001757345435383020", // MPX-04
+      machines: [{
+        sensorUUID: "31387640-1399-11eb-9ef5-39e2e110b14c",
+        host: "https://monitorprod.com.br"
+      }]
+    },
+    {
+      sensorUUID: "24003A000157345631353120", // MPX-05
+      machines: [{
+        sensorUUID: "51587dd0-1399-11eb-9ef5-39e2e110b14c",
+        host: "https://monitorprod.com.br"
+      }]
+    },
+    {
       sensorUUID: "179d5320-70c7-11e9-b03d-f764a39c0559",
       machines: [
         {
