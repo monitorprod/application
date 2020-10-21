@@ -156,8 +156,9 @@ module.exports = function() {
               const plant =
                 get(plantsMap, get(machine, "plantId")) ||
                 get(plantsMap, get(productionOrder, "plantId"));
+              const hoursDiff = moment(endD).diff(startOPD, "hours");
+              const daysDiff = Math.ceil(hoursDiff/24) - 1
               if (get(plant, "qualityTrackFrequency") === "Diario") {
-                const daysDiff = moment().diff(startOPD, "days") - 1;
                 for (let i = 0; i <= daysDiff; i++) {
                   const turn = get(plantTurnsMap, `${get(plant, "id")}.0`);
                   addToWasteList({
@@ -172,7 +173,6 @@ module.exports = function() {
                   });
                 }
               } else if (get(plant, "qualityTrackFrequency") === "Turno") {
-                const daysDiff = moment().diff(startOPD, "days") - 1;
                 for (let i = 0; i <= daysDiff; i++) {
                   lodash.forEach(get(plantTurnsMap, get(plant, "id")), turn => {
                     addToWasteList({
@@ -243,9 +243,9 @@ module.exports = function() {
                   item.cd = moment(wItem.cd).toDate();
                 }
                 return (
-                  moment().isAfter(moment(item.sd), "minute") &&
+                  moment(endD).isAfter(moment(item.sd), "minute") &&
                   moment(productionOrder.actualStartDate).isBefore(moment(item.ed), "minute") &&
-                  moment(productionOrder.actualEndDate || moment()).isAfter(
+                  moment(productionOrder.actualEndDate || moment(endD)).isAfter(
                     moment(item.sd),
                     "minute"
                   ) &&

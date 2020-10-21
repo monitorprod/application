@@ -301,7 +301,7 @@ const ProductionWaste = ({ classes }) => {
             date={endDate}
             setDate={setEndDate}
             minDate={startDate}
-            maxDate={moment()}
+            maxDate={moment().add(1, "days")}
           />
           <PlantFilter setQuery={setPlantIdQuery} />
         </Toolbar>
