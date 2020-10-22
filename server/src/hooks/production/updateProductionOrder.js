@@ -1,13 +1,14 @@
 const lodash = require("lodash");
 const { getActionType } = require("../../utils/events");
 
-module.exports = function() {
+module.exports = function () {
   return async context => {
     const { app, data, result } = context;
     if (data.rp || data.nw) {
       return context;
     }
     const productionOrdersService = app.service("production_orders");
+    const productionOrderEventsService = app.service("production_orders_events");
     const productionOrderTypesService = app.service("production_order_types");
     const eventTypesService = app.service("production_order_event_types");
     const activeStatus = lodash.get(
@@ -118,9 +119,19 @@ module.exports = function() {
           patch.actualStartDate = result.sd;
         }
       }
-      patch.totalProduction =
-        (parseInt(lodash.get(productionOrder, "totalProduction"), "10") || 0) +
-        (parseInt(result.t, "10") || 0);
+      // don't add production of repeated event
+      const existentEvent = lodash.get(await productionOrderEventsService.find({
+        sd: moment(result.sd).toDate(),
+        ed: moment(result.ed).toDate(),
+        poi: result.poi,
+        mi: result.mi,
+        $limit: 1
+      }), "data.0")
+      if (!existentEvent) {
+        patch.totalProduction =
+          (parseInt(lodash.get(productionOrder, "totalProduction"), "10") || 0) +
+          (parseInt(result.t, "10") || 0);
+      }
       if (
         // `${actionTypeId}` === `${closedActionType}` &&
         !productionOrder.confirmedProduction &&
