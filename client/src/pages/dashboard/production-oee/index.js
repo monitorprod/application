@@ -382,8 +382,8 @@ const ProductionOEE = ({
               setEndDate(
                 (moment(date)
                   .add(6, "days")
-                  .isAfter(moment().subtract(1, "days"), "minute")
-                  ? moment().subtract(1, "days")
+                  .isAfter(moment(), "minute")
+                  ? moment()
                   : moment(date).add(6, "days")
                 )
                   .endOf("day")
@@ -404,8 +404,8 @@ const ProductionOEE = ({
             setDate={setEndDate}
             minDate={moment(startDate).add(1, "days")}
             maxDate={
-              moment(startDate).add(7, "days").isAfter(moment(), "minute")
-                ? moment()
+              moment(startDate).add(7, "days").isAfter(moment().add(1, "days"), "minute")
+                ? moment().add(1, "days")
                 : moment(startDate).add(7, "days")
             }
           />

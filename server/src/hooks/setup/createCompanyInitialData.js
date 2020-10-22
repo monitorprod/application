@@ -40,20 +40,20 @@ module.exports = function() {
             companyId: result.id,
             isInProduction: false
           });
-          productionOrderTypesService.create({
-            name: "FALTA OP",
-            companyId: result.id,
-            isSystemEvent: true,
-            isInProduction: false
-          });
-          productionOrderTypesService.create({
-            name: "MÁQUINA DESLIGADA",
-            companyId: result.id,
-            isSystemEvent: true,
-            isInProduction: false
-          });
         }
       }
+    });
+    eventTypesService.create({
+      name: "FALTA OP",
+      productionOrderActionTypeId: getActionType({ app, type: "scheduledStop" }),
+      companyId: result.id,
+      isSystemEvent: true,
+    });
+    eventTypesService.create({
+      name: "MÁQUINA DESLIGADA",
+      productionOrderActionTypeId: getActionType({ app, type: "closed" }),
+      companyId: result.id,
+      isSystemEvent: true,
     });
     return context;
   };

@@ -264,7 +264,7 @@ const DataRow = ({ classes, header, item = {}, groupBy = {}, historyBy }) => {
                         alt
                       )}
                     </Typography>
-                    {index === 12 && historyBy === "history" && (
+                    {index === 11 && historyBy === "history" && (
                       <React.Fragment>
                         {hasEditAccess && !allowEdition && (
                           <Button

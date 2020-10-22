@@ -229,8 +229,19 @@ module.exports = function () {
     if (!currentEvent) {
       currentEvent = await eventTypesService.get(eventTypeId);
     }
+    const closedEvent = lodash.get(
+      await eventTypesService.find({
+        query: {
+          name: "ENCERRAR ORDEM",
+          companyId: data.ci,
+          $limit: 1,
+        },
+      }),
+      "data.0"
+    );
     if (
-      `${currentEvent.productionOrderActionTypeId}` === `${closedActionType}` ||
+      // `${currentEvent.productionOrderActionTypeId}` === `${closedActionType}` ||
+      (closedEvent && `${currentEvent.id}` === `${closedEvent.id}`) ||
       (`${currentEvent.productionOrderActionTypeId}` ===
         `${activeActionType}` &&
         data.productionOrderEventTypeId)
