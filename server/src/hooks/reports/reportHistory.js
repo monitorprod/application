@@ -398,6 +398,31 @@ module.exports = function () {
             lodash.sortBy(history, "sd"),
             item => item.value[0] > 0
           );
+          // clean after repeated
+          const closedMap = {}
+          for (let i = 0; i < history.length; i++) {
+            const ev = history[i];
+            if (ev.meta && ev.meta.indexOf("ENCERRAR ORDEM") !== -1) {
+              closedMap[ev.poi] = true;
+              continue;
+            }
+            if ([
+              `${activeActionType}`,
+              `${setupActionType}`,
+              `${setupAutoActionType}`,
+              `${noScheduledStopActionType}`,
+              `${scheduledStopActionType}`,
+              `${noWorkDayActionType}`
+            ].indexOf(`${ev.at}`) !== -1) {
+              delete closedMap[ev.poi];
+              continue;
+            }
+            if (closedMap[ev.poi]) {
+              history.splice(i, 1);
+              i--;
+              continue;
+            }
+          }
           for (let index = 0; index < history.length; index++) {
             if (index === 0) {
               history = lodash.filter(history, item => item.value[0] > 0);
@@ -663,31 +688,6 @@ module.exports = function () {
               );
               hEV.ev = lodash.get(noOPEventType, "0.id");
               addMeta({ ev: hEV });
-            }
-          }
-          // clean after repeated
-          const closedMap = {}
-          for (let i = 0; i < history.length; i++) {
-            const ev = history[i];
-            if (ev.meta && ev.meta.indexOf("ENCERRAR ORDEM") !== -1) {
-              closedMap[ev.poi] = true;
-              continue;
-            }
-            if ([
-              `${activeActionType}`,
-              `${setupActionType}`,
-              `${setupAutoActionType}`,
-              `${noScheduledStopActionType}`,
-              `${scheduledStopActionType}`,
-              `${noWorkDayActionType}`
-            ].indexOf(`${ev.at}`) !== -1) {
-              delete closedMap[ev.poi];
-              continue;
-            }
-            if (closedMap[ev.poi]) {
-              history.splice(i, 1);
-              i--;
-              continue;
             }
           }
           // console.log("history", history, closedMap)
