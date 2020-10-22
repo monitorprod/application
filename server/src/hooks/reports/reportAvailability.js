@@ -44,16 +44,17 @@ module.exports = function () {
       let { data: actionTypes } = await actionTypesService.find({
         query: {
           id: {
-            $nin: [closedActionType, undefinedActionType],
+            // $nin: [closedActionType, undefinedActionType],
+            $nin: [undefinedActionType],
           },
           $sort: { id: 1 },
         },
       });
       let { data: eventTypes } = await eventTypesService.find({
         query: {
-          productionOrderActionTypeId: {
-            $ne: closedActionType,
-          },
+          // productionOrderActionTypeId: {
+          //   $ne: closedActionType,
+          // },
           companyId: data.companyId,
           $sort: { productionOrderActionTypeId: 1 },
         },

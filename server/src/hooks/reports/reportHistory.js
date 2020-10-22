@@ -52,10 +52,16 @@ module.exports = function () {
       const maxActionType = getActionType({ app, type: "max" });
       const minActionType = getActionType({ app, type: "min" });
       const closedActionType = getActionType({ app, type: "closed" });
+      const setupActionType = getActionType({ app, type: "setup" });
+      const setupAutoActionType = getActionType({ app, type: "setupAuto" });
       const noJustifiedActionType = getActionType({ app, type: "noJustified" });
       const scheduledStopActionType = getActionType({
         app,
         type: "scheduledStop"
+      });
+      const noScheduledStopActionType = getActionType({
+        app,
+        type: "noScheduledStop"
       });
       const noWorkDayActionType = getActionType({ app, type: "noWorkDay" });
       const machines = result.data || result;
@@ -65,9 +71,9 @@ module.exports = function () {
       ];
       let { data: types } = await eventTypesService.find({
         query: {
-          productionOrderActionTypeId: {
-            $ne: closedActionType
-          },
+          // productionOrderActionTypeId: {
+          //   $ne: closedActionType
+          // },
           companyId: data.companyId,
           $sort: { productionOrderActionTypeId: 1 }
         }
@@ -208,8 +214,7 @@ module.exports = function () {
             roundDecimal({
               value: ev.diff / 60
             }).toFixed(2)
-          )}h${ev.poi ? `\nOP: ${ev.poi}` : ""}${
-          parseInt(ev.tr) > 0 ? `\n${NUMBER_FORMAT(ev.tr)} ciclos` : ""
+          )}h${ev.poi ? `\nOP: ${ev.poi}` : ""}${parseInt(ev.tr) > 0 ? `\n${NUMBER_FORMAT(ev.tr)} ciclos` : ""
           }`;
         ev.bgColor =
           getColor({
@@ -572,6 +577,7 @@ module.exports = function () {
           }
           if (history.length === 0 && params.$reportHistory.same) {
             const diffEmpty = moment(currentD).diff(startD, "minutes");
+            // console.log("push diffempty")
             // console.log(">>> has turn diffEmpty")
             const hEV = {
               at: -1,
@@ -627,6 +633,7 @@ module.exports = function () {
           }
           if (totalUndefinedTimeInRange > 0) {
             // console.log(">>> has turn totalUndefinedTimeInRange")
+            // console.log("push undefined")
             const hEV = {
               at: -1,
               ev: -1,
@@ -648,6 +655,7 @@ module.exports = function () {
           ) {
             const activeOP = !!machine.productionOrder;
             if (!activeOP) {
+              // console.log("push no OP")
               const hEV = history[0];
               hEV.at = lodash.get(
                 noOPEventType,
@@ -657,6 +665,32 @@ module.exports = function () {
               addMeta({ ev: hEV });
             }
           }
+          // clean after repeated
+          const closedMap = {}
+          for (let i = 0; i < history.length; i++) {
+            const ev = history[i];
+            if (ev.meta && ev.meta.indexOf("ENCERRAR ORDEM") !== -1) {
+              closedMap[ev.poi] = true;
+              continue;
+            }
+            if ([
+              `${activeActionType}`,
+              `${setupActionType}`,
+              `${setupAutoActionType}`,
+              `${noScheduledStopActionType}`,
+              `${scheduledStopActionType}`,
+              `${noWorkDayActionType}`
+            ].indexOf(`${ev.at}`) !== -1) {
+              delete closedMap[ev.poi];
+              continue;
+            }
+            if (closedMap[ev.poi]) {
+              history.splice(i, 1);
+              i--;
+              continue;
+            }
+          }
+          // console.log("history", history, closedMap)
           return {
             ...machine,
             history,

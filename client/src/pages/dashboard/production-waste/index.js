@@ -132,7 +132,7 @@ const ProductionWaste = ({ classes }) => {
     active: "Ativas",
     closed: "Encerradas"
   };
-  const [typesBy, setTypesBy] = useState("active");
+  const [typesBy, setTypesBy] = useState("all");
   const [groupByExpandMap, setGroupByExpandMap] = useState();
   const [plantIdQuery, setPlantIdQuery] = useState({});
   const handleGroupExpand = ({ id }) => () =>

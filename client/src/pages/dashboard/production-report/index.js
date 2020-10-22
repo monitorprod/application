@@ -307,8 +307,8 @@ const ProductionReport = ({ classes }) => {
               setEndDate(
                 (moment(date)
                   .add(6, "days")
-                  .isAfter(moment().subtract(1, "days"), "minute")
-                  ? moment().subtract(1, "days")
+                  .isAfter(moment(), "minute")
+                  ? moment()
                   : moment(date).add(6, "days")
                 )
                   .endOf("day")
@@ -329,8 +329,8 @@ const ProductionReport = ({ classes }) => {
             setDate={setEndDate}
             minDate={moment(startDate).add(1, "days")}
             maxDate={
-              moment(startDate).add(15, "days").isAfter(moment(), "minute")
-                ? moment()
+              moment(startDate).add(15, "days").isAfter(moment().add(1, "days"), "minute")
+                ? moment().add(1, "days")
                 : moment(startDate).add(15, "days")
             }
           />
