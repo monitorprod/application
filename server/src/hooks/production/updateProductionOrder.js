@@ -60,10 +60,21 @@ module.exports = function() {
         type: "noScheduledStop"
       });
       const noWorkDayActionType = getActionType({ app, type: "noWorkDay" });
+      const closedEvent = lodash.get(
+        await eventTypesService.find({
+          query: {
+            name: "ENCERRAR ORDEM",
+            companyId: data.ci,
+            $limit: 1,
+          },
+        }),
+        "data.0"
+      );
       const closedActionType = getActionType({ app, type: "closed" });
       if (
         !lodash.get(productionOrder, "isActive") &&
-        `${actionTypeId}` === `${closedActionType}`
+        closedEvent && `${eventType.id}` === `${closedEvent.id}`
+        // `${actionTypeId}` === `${closedActionType}`
       ) {
         patch.isActive = false;
         patch.isClosed = true;
@@ -72,7 +83,8 @@ module.exports = function() {
         patch.actualEndDate = result.ed;
       } else if (
         lodash.get(productionOrder, "isActive") &&
-        `${actionTypeId}` === `${closedActionType}`
+        closedEvent && `${eventType.id}` === `${closedEvent.id}`
+        // `${actionTypeId}` === `${closedActionType}`
       ) {
         patch.isActive = false;
         patch.isClosed = true;
@@ -110,8 +122,9 @@ module.exports = function() {
         (parseInt(lodash.get(productionOrder, "totalProduction"), "10") || 0) +
         (parseInt(result.t, "10") || 0);
       if (
-        `${actionTypeId}` === `${closedActionType}` &&
-        !productionOrder.confirmedProduction
+        // `${actionTypeId}` === `${closedActionType}` &&
+        !productionOrder.confirmedProduction &&
+        closedEvent && `${eventType.id}` === `${closedEvent.id}`
       ) {
         patch.confirmedProduction = productionOrder.totalProduction;
       }

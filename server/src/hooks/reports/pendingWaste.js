@@ -157,7 +157,7 @@ module.exports = function() {
                 get(plantsMap, get(machine, "plantId")) ||
                 get(plantsMap, get(productionOrder, "plantId"));
               const hoursDiff = moment(endD).diff(startOPD, "hours");
-              const daysDiff = Math.ceil(hoursDiff/24) - 1
+              const daysDiff = Math.ceil(hoursDiff/24) - 1;
               if (get(plant, "qualityTrackFrequency") === "Diario") {
                 for (let i = 0; i <= daysDiff; i++) {
                   const turn = get(plantTurnsMap, `${get(plant, "id")}.0`);
@@ -297,28 +297,28 @@ module.exports = function() {
         {
           text: "Q Confirm",
           path: "cp",
-          readOnly: "Q Refugo",
+          // readOnly: "Q Refugo",
           type: "integer",
           input: true
         },
-        {
-          text: "P Confirm (KG)",
-          path: "cpw",
-          readOnly: "Q Refugo",
-          type: "decimal",
-          input: true
-        },
+        // {
+        //   text: "P Confirm (KG)",
+        //   path: "cpw",
+        //   readOnly: "Q Refugo",
+        //   type: "decimal",
+        //   input: true
+        // },
         {
           text: "Q Refugo",
           path: "wp",
-          readOnly: "Q Confirmada",
+          // readOnly: "Q Confirmada",
           type: "integer",
           input: true
         },
         {
           text: "P Refugo (KG)",
           path: "wpw",
-          readOnly: "Q Confirmada",
+          // readOnly: "Q Confirmada",
           type: "decimal",
           input: true
         },
@@ -353,7 +353,7 @@ module.exports = function() {
             groupData: lodash.filter(groups, group => group.id)
           };
           // console.log("!!!groupRow", groupRow.machine.id, groupRow);
-          groupRow.colspan = showHistory ? 13 : 11;
+          groupRow.colspan = showHistory ? 12 : 10;
           return groupRow;
         }),
         "machine.identity"
