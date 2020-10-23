@@ -1,4 +1,5 @@
 const lodash = require("lodash");
+const moment = require("moment");
 const { getActionType } = require("../../utils/events");
 
 module.exports = function () {
@@ -8,7 +9,7 @@ module.exports = function () {
       return context;
     }
     const productionOrdersService = app.service("production_orders");
-    const productionOrderEventsService = app.service("production_orders_events");
+    const productionOrderEventsService = app.service("production_order_events");
     const productionOrderTypesService = app.service("production_order_types");
     const eventTypesService = app.service("production_order_event_types");
     const activeStatus = lodash.get(
