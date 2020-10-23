@@ -66,7 +66,7 @@ module.exports = function () {
         await eventTypesService.find({
           query: {
             name: "ENCERRAR ORDEM",
-            companyId: data.ci,
+            companyId: result.ci,
             $limit: 1,
           },
         }),
@@ -121,18 +121,18 @@ module.exports = function () {
         }
       }
       // don't add production of repeated event
-      const existentEvent = lodash.get(await productionOrderEventsService.find({
-        sd: moment(result.sd).toDate(),
-        ed: moment(result.ed).toDate(),
-        poi: result.poi,
-        mi: result.mi,
-        $limit: 1
-      }), "data.0")
-      if (!existentEvent) {
-        patch.totalProduction =
-          (parseInt(lodash.get(productionOrder, "totalProduction"), "10") || 0) +
-          (parseInt(result.t, "10") || 0);
-      }
+      // const existentEvent = lodash.get(await productionOrderEventsService.find({
+      //   sd: moment(result.sd).toDate(),
+      //   ed: moment(result.ed).toDate(),
+      //   poi: result.poi,
+      //   mi: result.mi,
+      //   $limit: 1
+      // }), "data.0")
+      // if (!existentEvent) {
+      patch.totalProduction =
+        (parseInt(lodash.get(productionOrder, "totalProduction"), "10") || 0) +
+        (parseInt(result.t, "10") || 0);
+      // }
       if (
         // `${actionTypeId}` === `${closedActionType}` &&
         !productionOrder.confirmedProduction &&
