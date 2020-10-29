@@ -289,8 +289,9 @@ module.exports = function () {
           );
           if (sum.w) {
             const warningD = moment(sum.w);
+            // console.log("warning")
             if (
-              warningD.isSameOrAfter(startD, "minute") &&
+              // warningD.isSameOrAfter(startD, "minute") &&
               warningD.isSameOrBefore(endD, "minute")
             ) {
               const ev = {
@@ -300,7 +301,7 @@ module.exports = function () {
                   "0.productionOrderActionTypeId"
                 ),
                 ev: lodash.get(noJustifiedEventType, "0.id"),
-                sd: warningD,
+                sd: warningD.isSameOrAfter(startD, "minute") ? warningD : startD,
                 ed: params.$reportHistory.same ? moment() : moment(endD)
               }
               const diff = ev.ed.diff(ev.sd, "minutes");
@@ -334,6 +335,7 @@ module.exports = function () {
         lodash.map(context.result.data, async machine => {
           let plant = lodash.get(plantsMap, machine.plantId);
           let history = machinesMap[machine.id].history;
+          // console.log("start", history)
           const noWorkHours = [];
           if (plant) {
             let lastTurn;
@@ -690,7 +692,12 @@ module.exports = function () {
               addMeta({ ev: hEV });
             }
           }
-          // console.log("history", history, closedMap)
+          lodash.forEach(history, h => {
+            if (h.meta.indexOf("MÁQUINA DESLIGADA") !== -1) {
+              h.bgColor = "#844204";
+            }
+          })
+          // console.log("history", history)
           return {
             ...machine,
             history,
