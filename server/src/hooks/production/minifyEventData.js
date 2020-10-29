@@ -319,7 +319,7 @@ module.exports = function () {
       query: {
         sd: moment(context.data.sd).toDate(),
         ed: moment(context.data.ed).toDate(),
-        poi: context.data.poi,
+        // poi: context.data.poi,
         mi: context.data.mi,
         $limit: 1
       }
