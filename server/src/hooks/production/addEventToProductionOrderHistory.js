@@ -82,60 +82,60 @@ module.exports = function () {
         [`${activeActionType}`, `${maxActionType}`, `${minActionType}`].some(item => item == `${data.at}`) &&
         lodash.find(data.r, r => `${r.t}` === `${0}`);
 
-      if (ProductionContainingZerosinReadings || data.az) { //new mpx device send intervals with allZeros
-        // console.log('previus', summary[previousIndex])
-        // console.log('next', summary[nextIndex])
+      // if (false) { //new mpx device send intervals with allZeros
+      //   // console.log('previus', summary[previousIndex])
+      //   // console.log('next', summary[nextIndex])
 
-        const noJustifiedEvent = lodash.get(
-          await eventTypesService.find({
-            query: {
-              companyId: data.ci,
-              productionOrderActionTypeId: noJustifiedActionType,
-              $limit: 1
-            }
-          }),
-          "data.0"
-        );
-        // console.log('splitting by zero')
-        let rh = new ReadingHandler(data);
-        let splitByZeros = rh.splitByZeros().groupedByZeros;
+      //   const noJustifiedEvent = lodash.get(
+      //     await eventTypesService.find({
+      //       query: {
+      //         companyId: data.ci,
+      //         productionOrderActionTypeId: noJustifiedActionType,
+      //         $limit: 1
+      //       }
+      //     }),
+      //     "data.0"
+      //   );
+      //   // console.log('splitting by zero')
+      //   let rh = new ReadingHandler(data);
+      //   let splitByZeros = rh.splitByZeros().groupedByZeros;
 
-        let eventsToAdd = rh. //already been splitedByzeros
-          joinGroupedBasedOnInterval(notificationTimeMIN).
-          formatIntervals(noJustifiedEvent.id, noJustifiedActionType, summary[nextIndex] && summary[nextIndex].iz, summary[previousIndex] && summary[previousIndex].fz).
-          groupedIntervals;
-          // console.log(eventsToAdd)
-          // console.log('antes de processar')
-          // console.log(summary[previousIndex], summary[nextIndex])
+      //   let eventsToAdd = rh. //already been splitedByzeros
+      //     joinGroupedBasedOnInterval(notificationTimeMIN).
+      //     formatIntervals(noJustifiedEvent.id, noJustifiedActionType, summary[nextIndex] && summary[nextIndex].iz, summary[previousIndex] && summary[previousIndex].fz).
+      //     groupedIntervals;
+      //     // console.log(eventsToAdd)
+      //     // console.log('antes de processar')
+      //     // console.log(summary[previousIndex], summary[nextIndex])
 
-        /* #region handle previous event */
-        if (summary[previousIndex] && summary[previousIndex].fz) {
-          const shouldChangePreviousEvent = summary[previousIndex].fz + splitByZeros[0].length >= notificationTimeMIN;
-          if (shouldChangePreviousEvent) {
-            summary[previousIndex].ed = moment(summary[previousIndex].ed).subtract(summary[previousIndex].fz, 'minutes').toDate();
-            delete summary[previousIndex].fz
-          }
-        }
-        /* #endregion */
+      //   /* #region handle previous event */
+      //   if (summary[previousIndex] && summary[previousIndex].fz) {
+      //     const shouldChangePreviousEvent = summary[previousIndex].fz + splitByZeros[0].length >= notificationTimeMIN;
+      //     if (shouldChangePreviousEvent) {
+      //       summary[previousIndex].ed = moment(summary[previousIndex].ed).subtract(summary[previousIndex].fz, 'minutes').toDate();
+      //       delete summary[previousIndex].fz
+      //     }
+      //   }
+      //   /* #endregion */
 
-        /* #region handle next event */
-        if (summary[nextIndex] && summary[nextIndex].iz) {
-          const shouldChangeNextEvent = summary[nextIndex].iz + splitByZeros[splitByZeros - 1].length >= notificationTimeMIN;
-          if (shouldChangeNextEvent) {
-            summary[nextIndex].sd = moment(summary[nextIndex].sd).add(summary[nextIndex].iz, 'minutes').toDate();
-            delete summary[nextIndex].iz
-          }
-        }
-        /* #endregion */
+      //   /* #region handle next event */
+      //   if (summary[nextIndex] && summary[nextIndex].iz) {
+      //     const shouldChangeNextEvent = summary[nextIndex].iz + splitByZeros[splitByZeros - 1].length >= notificationTimeMIN;
+      //     if (shouldChangeNextEvent) {
+      //       summary[nextIndex].sd = moment(summary[nextIndex].sd).add(summary[nextIndex].iz, 'minutes').toDate();
+      //       delete summary[nextIndex].iz
+      //     }
+      //   }
+      //   /* #endregion */
 
-        lodash.forEach(eventsToAdd, (ev, index) => //insere adiciona na posição correta.
-          summary.splice(
-            (nextIndex === -1 ? summary.length : nextIndex) + index,
-            0,
-            ev
-          )
-        );
-      } else {
+      //   lodash.forEach(eventsToAdd, (ev, index) => //insere adiciona na posição correta.
+      //     summary.splice(
+      //       (nextIndex === -1 ? summary.length : nextIndex) + index,
+      //       0,
+      //       ev
+      //     )
+      //   );
+      // } else {
         summary.splice(nextIndex === -1 ? summary.length : nextIndex, 0, {
           tr: data.tr || 0,
           tu: data.tu,
@@ -147,7 +147,7 @@ module.exports = function () {
           sd: startD.toDate(),
           ed: data.ed === -1 ? -1 : endD.toDate()
         });
-      }
+      // }
       /* #endregion */
       // console.log("!!!!!! REDUCE HISTORY", summary);
       const shouldLog = event => false;// event.tr = 86;
