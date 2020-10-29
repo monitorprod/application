@@ -13,6 +13,7 @@ module.exports = function () {
   return async (context) => {
     const { app, data, params } = context;
     // console.log(">>>>> minEV INIT", context.data);
+    const productionOrderEventsService = app.service("production_order_events");
     const eventTypesService = app.service("production_order_event_types");
     let productionOrder,
       machine,
@@ -313,6 +314,19 @@ module.exports = function () {
       // turn
       tu: lodash.get(turn, "id"),
     };
+    // don't add production of repeated event
+    const existentEvent = lodash.get(await productionOrderEventsService.find({
+      query: {
+        sd: moment(context.data.sd).toDate(),
+        ed: moment(context.data.ed).toDate(),
+        poi: context.data.poi,
+        mi: context.data.mi,
+        $limit: 1
+      }
+    }), "data.0")
+    if(existentEvent) {
+      context.data.dup = true; // duplicated event
+    }
     // console.log(">>>>> minEV RESULT", context.data);
     // throw new Error("!!!TEST");
     return context;

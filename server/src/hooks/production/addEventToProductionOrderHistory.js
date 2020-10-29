@@ -11,7 +11,7 @@ module.exports = function () {
   return async context => {
     const { app, data } = context;
     const ID = context.result._id.toString();
-    if (data.nw) {
+    if (data.nw || (data.dup && data.t > 0)) {
       return context;
     }
     const eventTypesService = app.service("production_order_event_types");
@@ -136,17 +136,17 @@ module.exports = function () {
       //     )
       //   );
       // } else {
-        summary.splice(nextIndex === -1 ? summary.length : nextIndex, 0, {
-          tr: data.tr || 0,
-          tu: data.tu,
-          ui: data.ui,
-          ev: data.ev,
-          at: data.at,
-          oev: data.oev,
-          oat: data.oat,
-          sd: startD.toDate(),
-          ed: data.ed === -1 ? -1 : endD.toDate()
-        });
+      summary.splice(nextIndex === -1 ? summary.length : nextIndex, 0, {
+        tr: data.tr || 0,
+        tu: data.tu,
+        ui: data.ui,
+        ev: data.ev,
+        at: data.at,
+        oev: data.oev,
+        oat: data.oat,
+        sd: startD.toDate(),
+        ed: data.ed === -1 ? -1 : endD.toDate()
+      });
       // }
       /* #endregion */
       // console.log("!!!!!! REDUCE HISTORY", summary);

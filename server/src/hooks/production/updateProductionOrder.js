@@ -9,7 +9,6 @@ module.exports = function () {
       return context;
     }
     const productionOrdersService = app.service("production_orders");
-    const productionOrderEventsService = app.service("production_order_events");
     const productionOrderTypesService = app.service("production_order_types");
     const eventTypesService = app.service("production_order_event_types");
     const activeStatus = lodash.get(
@@ -120,19 +119,11 @@ module.exports = function () {
           patch.actualStartDate = result.sd;
         }
       }
-      // don't add production of repeated event
-      // const existentEvent = lodash.get(await productionOrderEventsService.find({
-      //   sd: moment(result.sd).toDate(),
-      //   ed: moment(result.ed).toDate(),
-      //   poi: result.poi,
-      //   mi: result.mi,
-      //   $limit: 1
-      // }), "data.0")
-      // if (!existentEvent) {
-      patch.totalProduction =
-        (parseInt(lodash.get(productionOrder, "totalProduction"), "10") || 0) +
-        (parseInt(result.t, "10") || 0);
-      // }
+      if (!result.dup) {
+        patch.totalProduction =
+          (parseInt(lodash.get(productionOrder, "totalProduction"), "10") || 0) +
+          (parseInt(result.t, "10") || 0);
+      }
       if (
         // `${actionTypeId}` === `${closedActionType}` &&
         !productionOrder.confirmedProduction &&
