@@ -54,13 +54,17 @@ const StatusLine = ({ classes, index, isFirst, hasEditAccess, history, typesMap,
   };
   const getActionType = ({ type }) =>
     lodashGet(client.get(`config.productionOrder.eventType.${type}`), "value");
+  let powerOffColor = ""
+  if (lodashGet(typesMap, `${event.ev}.name`) === "MÁQUINA DESLIGADA") {
+    powerOffColor = "#844204";
+  }
   return (
     <React.Fragment>
       <Grid
         item
         style={{
           backgroundColor:
-            getColor({
+            powerOffColor || getColor({
               data: client.get(
                 `actionType.${lodashGet(typesMap, `${event.ev}.productionOrderActionTypeId`)}`
               ),

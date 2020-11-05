@@ -2,7 +2,7 @@ const lodash = require("lodash");
 const getConfigs = require("../../utils/getConfigs");
 const { getActionType } = require("../../utils/events");
 
-module.exports = function() {
+module.exports = function () {
   return async context => {
     const { app, method, type, params, service, result } = context;
     const productionOrdersService = app.service("production_orders");
@@ -160,6 +160,10 @@ module.exports = function() {
               eventTypes = data;
             }
           }
+        }
+        const powerOffIndex = lodash.findIndex(eventTypes, { name: "MÁQUINA DESLIGADA" })
+        if (powerOffIndex !== -1) {
+          eventTypes.splice(powerOffIndex, 1)
         }
         lodash.set(context.result, "eventTypes", eventTypes);
         lodash.set(context.result, "dataValues.eventTypes", eventTypes);

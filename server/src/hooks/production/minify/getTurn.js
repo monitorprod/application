@@ -44,7 +44,7 @@ module.exports = ({ data, plant }) => {
     lastStartT.subtract(1, "days");
   }
   lodash.forEach(plant.turns, (iTurn) => {
-    const startT = moment(iTurn.startTime).set({
+    let startT = moment(iTurn.startTime).set({
       year: startD.year(),
       month: startD.month(),
       date: startD.date(),
@@ -55,7 +55,7 @@ module.exports = ({ data, plant }) => {
       date: startD.date(),
     });
     if (startT.isSameOrAfter(endT, "minute")) {
-      startT.subtract(1, "days");
+      startT = moment(startT).subtract(1, "days");
     }
     const weekdayValue = startD.day();
     const weekday = weekdays[weekdayValue];
@@ -70,6 +70,7 @@ module.exports = ({ data, plant }) => {
       // (!iTurn[prevWeekday] && startD.isSameOrAfter(lastEndT, "minute"))
       // TODO what happens Friday last turn
     ) {
+      console.log("turn", iTurn)
       turn = iTurn;
     }
     if (!turn) {
@@ -84,6 +85,7 @@ module.exports = ({ data, plant }) => {
       // iTurn[weekday] &&
       // (!iTurn[prevWeekday] && startD.isSameOrAfter(lastEndT, "minute"))
     ) {
+      console.log("turn", iTurn)
       turn = iTurn;
     }
   });
