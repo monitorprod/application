@@ -162,7 +162,7 @@ module.exports = function () {
         await productionOrderHistoryService.patch(history._id, {
           w: moment(data.sd).toDate()
         });
-      } else if (data.rp && history.w && moment(data.sd).isSameOrAfter(moment(history.w), "minutes")) {
+      } else if ((data.rp || data.t > 0) && moment(data.sd).isSameOrAfter(moment(history.w), "minutes")) {
         await productionOrderHistoryService.patch(history._id, {
           w: null
         });
