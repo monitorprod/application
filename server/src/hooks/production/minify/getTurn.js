@@ -61,7 +61,9 @@ module.exports = ({ data, plant }) => {
     const weekday = weekdays[weekdayValue];
     const prevWeekdayValue = weekdayValue - 1 >= 0 ? weekdayValue - 1 : 6;
     const prevWeekday = weekdays[prevWeekdayValue];
-    console.log(startT.toISOString(), startD.toISOString())
+    if (data.si === 561) {
+      console.log(plant.turns.length, moment(startT).toISOString(), moment(startD).toISOString(), iTurn)
+    }
     if (
       !turn &&
       startD.isSameOrAfter(startT, "minute") &&
