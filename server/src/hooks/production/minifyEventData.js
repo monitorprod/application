@@ -44,10 +44,10 @@ module.exports = function () {
       mostRecentActionType = MRAT;
       machineId = MI;
     } catch (e) {
-      console.log(">>>>> minEV NO PRODUCTION ORDER");
+      // console.log(">>>>> minEV NO PRODUCTION ORDER");
     }
     if (!machineId) {
-      console.log("!!!!! minEV ERROR DETACHED SENSOR");
+      // console.log("!!!!! minEV ERROR DETACHED SENSOR");
       throw new BadRequest("Detached sensor!!");
     }
     const totalReadings = lodash.reduce(
