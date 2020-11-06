@@ -229,6 +229,13 @@ const Status = ({ classes, productionOrder, formItem }) => {
                         thousandSeparator={"."}
                         decimalSeparator={","}
                       />{" "}
+                      / PRODUZ:{" "}
+                      <NumberFormat
+                        value={`${lodashGet(productionOrder, "totalProduction")}`}
+                        displayType={"text"}
+                        thousandSeparator={"."}
+                        decimalSeparator={","}
+                      />{" "}
                       / CONFIRM:{" "}
                       <NumberFormat
                         value={confirmedProduction}

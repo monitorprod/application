@@ -341,6 +341,15 @@ const ProductionOrderCard = ({
                   />
                 </Typography>
                 <Typography color="textSecondary" noWrap>
+                  PRODUZ:{" "}
+                  <NumberFormat
+                    value={inProductionOrder ? `${lodashGet(productionOrder, "totalProduction")}` : ""}
+                    displayType={"text"}
+                    thousandSeparator={"."}
+                    decimalSeparator={","}
+                  />
+                </Typography>
+                <Typography color="textSecondary" noWrap>
                   CONFIRM:{" "}
                   <NumberFormat
                     value={inProductionOrder ? confirmedProduction : ""}
