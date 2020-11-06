@@ -48,12 +48,12 @@ module.exports = ({ data, plant }) => {
       year: startD.year(),
       month: startD.month(),
       date: startD.date(),
-    }).subtract(2, "hours");
+    }).add(1, "hours");
     const endT = moment(iTurn.endTime).set({
       year: startD.year(),
       month: startD.month(),
       date: startD.date(),
-    }).subtract(2, "hours");
+    }).add(1, "hours");
     if (startT.isSameOrAfter(endT, "minute")) {
       startT = moment(startT).subtract(1, "days");
     }
@@ -61,9 +61,9 @@ module.exports = ({ data, plant }) => {
     const weekday = weekdays[weekdayValue];
     const prevWeekdayValue = weekdayValue - 1 >= 0 ? weekdayValue - 1 : 6;
     const prevWeekday = weekdays[prevWeekdayValue];
-    if (data.sensorId === 561) {
-      console.log(plant.turns.length, moment(startT).toISOString(), moment(startD).toISOString(), iTurn)
-    }
+    // if (data.sensorId === 561) {
+    //   console.log(plant.turns.length, moment(startT).toISOString(), moment(startD).toISOString(), iTurn)
+    // }
     if (
       !turn &&
       startD.isSameOrAfter(startT, "minute") &&
