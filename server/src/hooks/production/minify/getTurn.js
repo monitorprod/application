@@ -73,7 +73,7 @@ module.exports = ({ data, plant }) => {
       // (!iTurn[prevWeekday] && startD.isSameOrAfter(lastEndT, "minute"))
       // TODO what happens Friday last turn
     ) {
-      console.log("turn", iTurn)
+      // console.log("turn", iTurn)
       turn = iTurn;
     }
     if (!turn) {
@@ -88,7 +88,7 @@ module.exports = ({ data, plant }) => {
       // iTurn[weekday] &&
       // (!iTurn[prevWeekday] && startD.isSameOrAfter(lastEndT, "minute"))
     ) {
-      console.log("turn", iTurn)
+      // console.log("turn", iTurn)
       turn = iTurn;
     }
   });
