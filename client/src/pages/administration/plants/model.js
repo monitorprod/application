@@ -95,19 +95,19 @@ export const form = [
   ],
   [
     [
-      {
-        text: "Apontar Qualidade",
-        identity: "qualityTrackType",
-        required: true,
-        enum: ["Q Refugo", "Q Confirmada"],
-        readOnly: {
-          useCustomIf: ({ }) => {
-            const { session } = useAuth();
-            const level = lodashGet(session, "company.level");
-            return level !== "N1";
-          }
-        }
-      },
+      // {
+      //   text: "Apontar Qualidade",
+      //   identity: "qualityTrackType",
+      //   required: true,
+      //   enum: ["Q Refugo", "Q Confirmada"],
+      //   readOnly: {
+      //     useCustomIf: ({ }) => {
+      //       const { session } = useAuth();
+      //       const level = lodashGet(session, "company.level");
+      //       return level !== "N1";
+      //     }
+      //   }
+      // },
       {
         text: "Frequencia",
         identity: "qualityTrackFrequency",

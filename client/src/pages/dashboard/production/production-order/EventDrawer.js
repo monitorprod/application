@@ -75,13 +75,15 @@ const EventDrawer = ({
   eventTypes,
   loading,
   reload,
-  handleDrawer = () => {}
+  handleDrawer = () => { }
 }) => {
   const client = useContext(ApiContext);
   const [errors, setErrors] = useState();
+  const [activeOP, setActiveOP] = useState();
   const [eventLoading, setEventLoading] = useState();
   const sendEvent = ({ id }) => async () => {
     setErrors();
+    setActiveOP();
     setEventLoading(true);
     if (!lodashGet(productionOrder, "isActive")) {
       const { data } = await client.service("production_orders").find({
@@ -92,6 +94,7 @@ const EventDrawer = ({
       });
       if (data.length) {
         setEventLoading(false);
+        setActiveOP(data[0]);
         return setErrors(
           "Existe uma Ordem de Produção já ativa. Por favor, feche-a antes de abrir uma nova."
         );
@@ -106,6 +109,7 @@ const EventDrawer = ({
       });
       if (data.length) {
         setEventLoading(false);
+        setActiveOP(data[0]);
         return setErrors(
           "Existe uma Ordem de Produção para o Molde selecionado já ativa. Por favor, feche-a antes de abrir uma nova."
         );
@@ -158,8 +162,13 @@ const EventDrawer = ({
       </Toolbar>
       <Divider />
       <div className={classes.container}>
-        <div hideTracksWhenNotNeeded style={{ width: "100%", minHeight: "300px", overflow:'overlay' }}>
-          {errors && <Errors errors={errors} />}
+        <div hideTracksWhenNotNeeded style={{ width: "100%", minHeight: "300px", overflow: 'overlay' }}>
+          {errors && <Errors errors={
+            <>
+              <p>{errors}</p>
+              {activeOP && <a href={`/dashboard/production/${activeOP.machineId}/order/${activeOP.id}`}>OP: {activeOP.id}</a>}
+            </>}
+          />}
           {(loading || eventLoading) && <Loader />}
           <List className={classes.list}>
             {!designed &&

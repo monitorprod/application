@@ -123,7 +123,7 @@ const ProductionWaste = ({ classes }) => {
       .add(6, "hours")
   );
   const historyByTextMap = {
-    waste: "Apontamento",
+    waste: "Pendentes",
     history: "Histórico"
   };
   const [historyBy, setHistoryBy] = useState();

@@ -46,9 +46,9 @@ module.exports = function () {
     } catch (e) {
       // console.log(">>>>> minEV NO PRODUCTION ORDER");
     }
-    if (!machineId) {
+    if (!machineId && !data.productionOrderEventTypeId) {
       // console.log("!!!!! minEV ERROR DETACHED SENSOR");
-      throw new BadRequest("Detached sensor!!");
+      throw new BadRequest("Sensor sem máquina.");
     }
     const totalReadings = lodash.reduce(
       data.readings,

@@ -63,13 +63,13 @@ const DataRow = ({ classes, header, item = {}, groupBy = {}, historyBy }) => {
       }));
       item.cp = value;
       item.cpw = cpw;
-      let wasteP = (parseInt(lodashGet(item, "tp"), "10") || 0) - value;
-      wasteP = wasteP > 0 ? wasteP : 0;
-      setFormItem(prev => ({ ...prev, wp: wasteP }));
-      const wpw = Math.round((weight * wasteP * 100) / 1000) / 100;
-      setFormItem(prev => ({ ...prev, wpw }));
-      item.wp = wasteP;
-      item.wpw = wpw;
+      // let wasteP = (parseInt(lodashGet(item, "tp"), "10") || 0) - value;
+      // wasteP = wasteP > 0 ? wasteP : 0;
+      // setFormItem(prev => ({ ...prev, wp: wasteP }));
+      // const wpw = Math.round((weight * wasteP * 100) / 1000) / 100;
+      // setFormItem(prev => ({ ...prev, wpw }));
+      // item.wp = wasteP;
+      // item.wpw = wpw;
     }
     if (identity === "cpw") {
       const confirmP = Math.round((value * 1000) / weight);
@@ -79,13 +79,13 @@ const DataRow = ({ classes, header, item = {}, groupBy = {}, historyBy }) => {
       }));
       item.cp = confirmP;
       item.cpw = value;
-      let wasteP = (parseInt(lodashGet(item, "tp"), "10") || 0) - confirmP;
-      wasteP = wasteP > 0 ? wasteP : 0;
-      setFormItem(prev => ({ ...prev, wp: wasteP }));
-      const wpw = Math.round((weight * wasteP * 100) / 1000) / 100;
-      setFormItem(prev => ({ ...prev, wpw }));
-      item.wp = wasteP;
-      item.wpw = wpw;
+      // let wasteP = (parseInt(lodashGet(item, "tp"), "10") || 0) - confirmP;
+      // wasteP = wasteP > 0 ? wasteP : 0;
+      // setFormItem(prev => ({ ...prev, wp: wasteP }));
+      // const wpw = Math.round((weight * wasteP * 100) / 1000) / 100;
+      // setFormItem(prev => ({ ...prev, wpw }));
+      // item.wp = wasteP;
+      // item.wpw = wpw;
     }
     if (identity === "wp") {
       const wpw = Math.round((weight * value * 100) / 1000) / 100;
@@ -95,13 +95,13 @@ const DataRow = ({ classes, header, item = {}, groupBy = {}, historyBy }) => {
       }));
       item.wp = value;
       item.wpw = wpw;
-      let confirmP = (parseInt(lodashGet(item, "tp"), "10") || 0) - value;
-      confirmP = confirmP > 0 ? confirmP : 0;
-      setFormItem(prev => ({ ...prev, cp: confirmP }));
-      const cpw = Math.round((weight * confirmP * 100) / 1000) / 100;
-      setFormItem(prev => ({ ...prev, cpw }));
-      item.cp = confirmP;
-      item.cpw = cpw;
+      // let confirmP = (parseInt(lodashGet(item, "tp"), "10") || 0) - value;
+      // confirmP = confirmP > 0 ? confirmP : 0;
+      // setFormItem(prev => ({ ...prev, cp: confirmP }));
+      // const cpw = Math.round((weight * confirmP * 100) / 1000) / 100;
+      // setFormItem(prev => ({ ...prev, cpw }));
+      // item.cp = confirmP;
+      // item.cpw = cpw;
     }
     if (identity === "wpw") {
       const wasteP = Math.round((value * 1000) / weight);
@@ -111,13 +111,13 @@ const DataRow = ({ classes, header, item = {}, groupBy = {}, historyBy }) => {
       }));
       item.wp = wasteP;
       item.wpw = value;
-      let confirmP = (parseInt(lodashGet(item, "tp"), "10") || 0) - wasteP;
-      confirmP = confirmP > 0 ? confirmP : 0;
-      setFormItem(prev => ({ ...prev, cp: confirmP }));
-      const cpw = Math.round((weight * confirmP * 100) / 1000) / 100;
-      setFormItem(prev => ({ ...prev, cpw }));
-      item.cp = confirmP;
-      item.cpw = cpw;
+      // let confirmP = (parseInt(lodashGet(item, "tp"), "10") || 0) - wasteP;
+      // confirmP = confirmP > 0 ? confirmP : 0;
+      // setFormItem(prev => ({ ...prev, cp: confirmP }));
+      // const cpw = Math.round((weight * confirmP * 100) / 1000) / 100;
+      // setFormItem(prev => ({ ...prev, cpw }));
+      // item.cp = confirmP;
+      // item.cpw = cpw;
     }
     if (identity === "wji") {
       item.wji = value;

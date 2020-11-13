@@ -606,7 +606,7 @@ const ProductionOEE = ({
                       {loading && <Loader />}
                     </span>
                   </Typography>
-                  <Typography
+                  {/* <Typography
                     className={classes.graphDetailTitle}
                     variant="body1"
                   >
@@ -620,7 +620,7 @@ const ProductionOEE = ({
                       />
                       {loading && <Loader />}
                     </span>
-                  </Typography>
+                  </Typography> */}
                 </div>
               </Grid>
               <Grid item xs={12} className={classes.graphItem}>

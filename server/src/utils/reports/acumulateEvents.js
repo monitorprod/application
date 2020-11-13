@@ -22,7 +22,7 @@ const acumulateEvents = ({ startD, endD, eventsMap = {}, event = {} }) => {
   const endEVD = moment(event.ed);
   if (
     endEVD.isSameOrBefore(startD, "minute") ||
-    startEVD.isSameOrAfter(endD, "minute")
+    startEVD.isSameOrAfter(endD, "minute") || event.dup
   ) {
     return false;
   }

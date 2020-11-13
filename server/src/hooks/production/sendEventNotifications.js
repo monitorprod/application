@@ -148,25 +148,23 @@ module.exports = function () {
       clearTimeout(app.get(`${data.mi}-stop`));
       clearTimeout(app.get(`${data.mi}-noise`));
     }
-    if (data.w || data.rp) {
-      const history = lodash.get(
-        await productionOrderHistoryService.find({
-          query: {
-            poi: data.poi,
-            $limit: 1
-          }
-        }),
-        "data.0"
-      );
-      if (data.w) {
-        await productionOrderHistoryService.patch(history._id, {
-          w: moment(data.sd).toDate()
-        });
-      } else if ((data.rp || data.t > 0) && moment(data.sd).isSameOrAfter(moment(history.w), "minutes")) {
-        await productionOrderHistoryService.patch(history._id, {
-          w: null
-        });
-      }
+    const history = lodash.get(
+      await productionOrderHistoryService.find({
+        query: {
+          poi: data.poi,
+          $limit: 1
+        }
+      }),
+      "data.0"
+    );
+    if (data.w) {
+      await productionOrderHistoryService.patch(history._id, {
+        w: moment(data.sd).toDate()
+      });
+    } else if ((data.rp || data.t > 0) && moment(data.ed).isSameOrAfter(moment(history.w), "minutes")) {
+      await productionOrderHistoryService.patch(history._id, {
+        w: null
+      });
     }
     if (data.rp || data.w || data.nw) {
       throw new Error("Notification Created!");

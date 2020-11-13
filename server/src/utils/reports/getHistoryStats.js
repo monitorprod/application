@@ -256,13 +256,13 @@ const getHistoryStats = ({
     stats.totalProductionInEvents = totalProductionInEvents;
     const realCycleInEvents = (productionTime * 60) / (readingsInEvents || 1);
     stats.realCycleInEvents = realCycleInEvents;
-    // let confirmedProductionInEvents = lodash.reduce(
-    //   productionWaste,
-    //   (sum, { cp }) => (sum += parseInt(cp, "10") || 0),
-    //   0
-    // );
-    // // confirmedProductionInEvents =
-    // //   confirmedProductionInEvents > 0 ? confirmedProductionInEvents : totalProductionInEvents;
+    let confirmedProductionInEvents = lodash.reduce(
+      productionWaste,
+      (sum, { cp }) => (sum += parseInt(cp, "10") || 0),
+      0
+    );
+    confirmedProductionInEvents =
+      confirmedProductionInEvents > 0 ? confirmedProductionInEvents : totalProductionInEvents;
     // confirmedProductionInEvents = confirmedProductionInEvents > 0 ? confirmedProductionInEvents : 0;
     let wastedProductionInEvents = lodash.reduce(
       productionWaste,
@@ -275,10 +275,10 @@ const getHistoryStats = ({
     //     : totalProductionInEvents - confirmedProductionInEvents;
     wastedProductionInEvents =
       wastedProductionInEvents > 0 ? wastedProductionInEvents : 0;
-    let confirmedProductionInEvents =
-      totalProductionInEvents - wastedProductionInEvents;
-    confirmedProductionInEvents =
-      confirmedProductionInEvents > 0 ? confirmedProductionInEvents : 0;
+    // let confirmedProductionInEvents =
+    //   totalProductionInEvents - wastedProductionInEvents;
+    // confirmedProductionInEvents =
+    //   confirmedProductionInEvents > 0 ? confirmedProductionInEvents : 0;
     stats.confirmedProductionInEvents = confirmedProductionInEvents;
     stats.wastedProductionInEvents = wastedProductionInEvents;
     const productWeight =
@@ -291,16 +291,16 @@ const getHistoryStats = ({
     stats.confirmedWeightInEvents = confirmedWeightInEvents;
     // stats.quality =
     //   totalProduction > 0 ? confirmedProduction / (totalProduction || confirmedProduction || 1) : 1;
-    // stats.quality =
-    //   totalProductionInEvents > 0
-    //     ? confirmedProductionInEvents /
-    //       (totalProductionInEvents || confirmedProductionInEvents || 1)
-    //     : 1;
     stats.quality =
       totalProductionInEvents > 0 && level === "N1"
-        ? (totalProductionInEvents - wastedProductionInEvents) /
-          (totalProductionInEvents || 1)
+        ? confirmedProductionInEvents /
+          (totalProductionInEvents || confirmedProductionInEvents || 1)
         : 1;
+    // stats.quality =
+    //   totalProductionInEvents > 0 && level === "N1"
+    //     ? (totalProductionInEvents - wastedProductionInEvents) /
+    //       (totalProductionInEvents || 1)
+    //     : 1;
     const idealCycle = parseFloat(
       lodash.get(history, "productionOrder.idealCycle") || 0
     );
