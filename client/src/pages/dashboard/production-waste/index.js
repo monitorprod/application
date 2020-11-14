@@ -156,6 +156,7 @@ const ProductionWaste = ({ classes }) => {
             machineStatusId: lodashGet(client.get("config.machine.status.active"), "value")
           }
         });
+        // console.log("PendingWasteData", PendingWasteData)
         const expandMap = {};
         lodashForEach(PendingWasteData.groupBy, item => {
           expandMap[lodashGet(item, "machine.id")] = true;

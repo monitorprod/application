@@ -199,8 +199,10 @@ const ProductionHistory = ({ classes, match: { params }, timeCarousel, limit, of
     let getReportHistoryDataInterval;
     if (isSameDay) {
       getReportHistoryDataInterval = setInterval(() => {
-        getReportHistoryData();
-      }, 5 * 60 * 1000);
+        if (moment().get("minute") % 5 === 1) {
+          getReportHistoryData();
+        }
+      }, 60 * 1000);
     }
     return () => {
       clearInterval(getReportHistoryDataInterval);

@@ -166,6 +166,7 @@ const ProductionReport = ({ classes }) => {
             ),
           },
         });
+        // console.log("ReportAvailabilityData", ReportAvailabilityData)
         if (["mipoi", "mi"].indexOf(groupBy) !== -1) {
           const expandMap = {};
           lodashForEach(ReportAvailabilityData.groupBy, (item) => {
