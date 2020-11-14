@@ -251,7 +251,7 @@ const DataRow = ({ classes, header, item = {}, groupBy = {}, historyBy }) => {
                           ) : (
                               alt
                             )
-                        ) : type === "integer" ? (
+                        ) : (type === "integer" || type === "decimal") ? (
                           !lodashIsNil(lodashGet(item, path)) ? (
                             <NumberFormat
                               value={lodashGet(item, path)}

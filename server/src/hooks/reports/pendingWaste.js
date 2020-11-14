@@ -235,9 +235,10 @@ module.exports = function() {
                     item.tp = lodash.get(item, "poi.totalProduction");
                   }
                   item.cp = wItem.cp;
-                  item.cpw = Math.round(wItem.cp * weight * 100) / 100;
+                  item.cpw = Math.round(wItem.cp * weight / 1000 * 100) / 100;
                   item.wp = wItem.wp;
-                  item.wpw = Math.round(wItem.wp * weight * 100) / 100;
+                  item.wpw = Math.round(wItem.wp * weight / 1000 * 100) / 100;
+                  item.w = weight;
                   item.wji = wItem.wji;
                   item.userName = get(usersMap, `${get(wItem, "ui")}.name`);
                   item.cd = moment(wItem.cd).toDate();
