@@ -58,7 +58,7 @@ module.exports = function () {
     if (
       machine &&
       productionOrder &&
-      (data.w || (`${data.at}` === `${noJustifiedActionType}` && !data.nw))
+      data.w
     ) {
       app.set(
         `${data.mi}-stop`,
@@ -144,7 +144,7 @@ module.exports = function () {
           // console.log(">>>> ERROR NOTIFICATION NOISE WARNING", error)
         );
     }
-    if (data.rp) {
+    if (data.rp || data.t > 0) {
       clearTimeout(app.get(`${data.mi}-stop`));
       clearTimeout(app.get(`${data.mi}-noise`));
     }

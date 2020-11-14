@@ -132,8 +132,12 @@ const DataRow = ({ classes, header, item = {}, groupBy = {}, historyBy }) => {
     });
     setAllowEdition(false);
   };
-  const handleDelete = () => {
-    client.service("production_order_waste").remove(item._id);
+  const handleDelete = async () => {
+    await client.service("production_order_waste").remove(null, {
+      query: {
+        _id: { $in: [item._id] }
+      }
+    });
     setShow(false);
   };
   const hasEditAccess = getPermissions({
@@ -239,71 +243,71 @@ const DataRow = ({ classes, header, item = {}, groupBy = {}, historyBy }) => {
                   )}
                 {((!input && !model) ||
                   (historyBy === "history" && input && !model && !allowEdition)) && (
-                  <div style={{ display: "flex", alignItems: "center" }}>
-                    <Typography variant="body1">
-                      {type === "datetime" ? (
-                        lodashGet(item, path) ? (
-                          moment(lodashGet(item, path)).format("DD/MM/YYYY HH:mm")
-                        ) : (
-                          alt
-                        )
-                      ) : type === "integer" ? (
-                        !lodashIsNil(lodashGet(item, path)) ? (
-                          <NumberFormat
-                            value={lodashGet(item, path)}
-                            displayType={"text"}
-                            thousandSeparator={"."}
-                            decimalSeparator={","}
-                          />
-                        ) : (
-                          alt
-                        )
-                      ) : !lodashIsNil(lodashGet(item, path)) ? (
-                        lodashGet(item, path)
-                      ) : (
-                        alt
-                      )}
-                    </Typography>
-                    {index === 11 && historyBy === "history" && (
-                      <React.Fragment>
-                        {hasEditAccess && !allowEdition && (
-                          <Button
-                            type="icon"
-                            text="Editar"
-                            icon="edit_icon"
-                            variants="editAction"
-                            onClick={handleEdit}
-                          />
-                        )}
-                        {allowEdition && (
-                          <React.Fragment>
-                            <Button
-                              type="icon"
-                              text="Gravar"
-                              icon="save"
-                              variants="editAction"
-                              onClick={handleUpdate}
+                    <div style={{ display: "flex", alignItems: "center" }}>
+                      <Typography variant="body1">
+                        {type === "datetime" ? (
+                          lodashGet(item, path) ? (
+                            moment(lodashGet(item, path)).format("DD/MM/YYYY HH:mm")
+                          ) : (
+                              alt
+                            )
+                        ) : type === "integer" ? (
+                          !lodashIsNil(lodashGet(item, path)) ? (
+                            <NumberFormat
+                              value={lodashGet(item, path)}
+                              displayType={"text"}
+                              thousandSeparator={"."}
+                              decimalSeparator={","}
                             />
+                          ) : (
+                              alt
+                            )
+                        ) : !lodashIsNil(lodashGet(item, path)) ? (
+                          lodashGet(item, path)
+                        ) : (
+                                alt
+                              )}
+                      </Typography>
+                      {index === 11 && historyBy === "history" && (
+                        <React.Fragment>
+                          {hasEditAccess && !allowEdition && (
                             <Button
                               type="icon"
-                              text="Deletar"
-                              icon="delete_icon"
-                              variants="deleteAction"
-                              onClick={handleDelete}
-                            />
-                            <Button
-                              type="icon"
-                              text="Cancelar"
-                              icon="close"
+                              text="Editar"
+                              icon="edit_icon"
                               variants="editAction"
                               onClick={handleEdit}
                             />
-                          </React.Fragment>
-                        )}
-                      </React.Fragment>
-                    )}
-                  </div>
-                )}
+                          )}
+                          {allowEdition && (
+                            <React.Fragment>
+                              <Button
+                                type="icon"
+                                text="Gravar"
+                                icon="save"
+                                variants="editAction"
+                                onClick={handleUpdate}
+                              />
+                              <Button
+                                type="icon"
+                                text="Deletar"
+                                icon="delete_icon"
+                                variants="deleteAction"
+                                onClick={handleDelete}
+                              />
+                              <Button
+                                type="icon"
+                                text="Cancelar"
+                                icon="close"
+                                variants="editAction"
+                                onClick={handleEdit}
+                              />
+                            </React.Fragment>
+                          )}
+                        </React.Fragment>
+                      )}
+                    </div>
+                  )}
               </TableCell>
             )
         )}
