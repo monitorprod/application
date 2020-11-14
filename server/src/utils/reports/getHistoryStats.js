@@ -206,6 +206,7 @@ const getHistoryStats = ({
       history,
       readingsMap: eventsMap.readingsMap
     });
+    // console.log("eventsMap.readingsMap", eventsMap.readingsMap)
     const totalProduction = parseFloat(
       lodash.get(history, "productionOrder.totalProduction") || 0
     );
@@ -287,14 +288,17 @@ const getHistoryStats = ({
       (productWeight * totalProductionInEvents) / 1000;
     const confirmedWeightInEvents =
       (productWeight * confirmedProductionInEvents) / 1000;
+    const wastedWeightInEvents =
+      (productWeight * wastedProductionInEvents) / 1000;
     stats.producedWeightInEvents = producedWeightInEvents;
     stats.confirmedWeightInEvents = confirmedWeightInEvents;
+    stats.wastedWeightInEvents = wastedWeightInEvents;
     // stats.quality =
     //   totalProduction > 0 ? confirmedProduction / (totalProduction || confirmedProduction || 1) : 1;
     stats.quality =
       totalProductionInEvents > 0 && level === "N1"
         ? confirmedProductionInEvents /
-          (totalProductionInEvents || confirmedProductionInEvents || 1)
+        (totalProductionInEvents || confirmedProductionInEvents || 1)
         : 1;
     // stats.quality =
     //   totalProductionInEvents > 0 && level === "N1"
