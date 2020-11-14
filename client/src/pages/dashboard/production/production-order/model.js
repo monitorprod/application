@@ -56,41 +56,41 @@ export const form = [
           );
         }
       },
-      handleValidate: ({ data = {}, item: productionOrder = {} }) => {
-        const value = parseInt(lodashGet(data, "target.value"), "10");
-        if (
-          value > parseInt(lodashGet(productionOrder, "totalProduction"), "10")
-        ) {
-          return "Q Confirmada não pode exceder a quantidade produzida";
-        }
-        if (value < 0) {
-          return "Q Confirmada não pode ser negativo";
-        }
-        return true;
-      },
-      handleChange: ({
-        data = {},
-        item: productionOrder = {},
-        handleChange
-      }) => {
-        const value = parseInt(lodashGet(data, "target.value"), "10");
-        if (
-          value &&
-          lodashGet(productionOrder, "plant.qualityTrackType") ===
-            "Q Confirmada"
-        ) {
-          handleChange({
-            target: {
-              name: "wastedProduction",
-              value:
-                (parseInt(
-                  lodashGet(productionOrder, "totalProduction"),
-                  "10"
-                ) || 0) - value
-            }
-          });
-        }
-      }
+      // handleValidate: ({ data = {}, item: productionOrder = {} }) => {
+      //   const value = parseInt(lodashGet(data, "target.value"), "10");
+      //   if (
+      //     value > parseInt(lodashGet(productionOrder, "totalProduction"), "10")
+      //   ) {
+      //     return "Q Confirmada não pode exceder a quantidade produzida";
+      //   }
+      //   if (value < 0) {
+      //     return "Q Confirmada não pode ser negativo";
+      //   }
+      //   return true;
+      // },
+      // handleChange: ({
+      //   data = {},
+      //   item: productionOrder = {},
+      //   handleChange
+      // }) => {
+      //   const value = parseInt(lodashGet(data, "target.value"), "10");
+      //   if (
+      //     value &&
+      //     lodashGet(productionOrder, "plant.qualityTrackType") ===
+      //       "Q Confirmada"
+      //   ) {
+      //     handleChange({
+      //       target: {
+      //         name: "wastedProduction",
+      //         value:
+      //           (parseInt(
+      //             lodashGet(productionOrder, "totalProduction"),
+      //             "10"
+      //           ) || 0) - value
+      //       }
+      //     });
+      //   }
+      // }
     },
     {
       text: "Quantidade Refugo",
@@ -110,41 +110,41 @@ export const form = [
           );
         }
       },
-      handleValidate: ({ data = {}, item: productionOrder = {} }) => {
-        const value = parseInt(lodashGet(data, "target.value"), "10");
-        if (
-          value > parseInt(lodashGet(productionOrder, "totalProduction"), "10")
-        ) {
-          return "Q Refugo não pode exceder a quantidade produzida";
-        }
-        if (value < 0) {
-          return "Q Refugo não pode ser negativo";
-        }
-        return true;
-      },
-      handleChange: ({
-        data = {},
-        item: productionOrder = {},
-        handleChange
-      }) => {
-        // TODO create a util parseInt to include radix auto, maybe a lodashGetInt?
-        const value = parseInt(lodashGet(data, "target.value"), "10");
-        if (
-          value &&
-          lodashGet(productionOrder, "plant.qualityTrackType") === "Q Refugo"
-        ) {
-          handleChange({
-            target: {
-              name: "confirmedProduction",
-              value:
-                (parseInt(
-                  lodashGet(productionOrder, "totalProduction"),
-                  "10"
-                ) || 0) - value
-            }
-          });
-        }
-      }
+      // handleValidate: ({ data = {}, item: productionOrder = {} }) => {
+      //   const value = parseInt(lodashGet(data, "target.value"), "10");
+      //   if (
+      //     value > parseInt(lodashGet(productionOrder, "totalProduction"), "10")
+      //   ) {
+      //     return "Q Refugo não pode exceder a quantidade produzida";
+      //   }
+      //   if (value < 0) {
+      //     return "Q Refugo não pode ser negativo";
+      //   }
+      //   return true;
+      // },
+      // handleChange: ({
+      //   data = {},
+      //   item: productionOrder = {},
+      //   handleChange
+      // }) => {
+      //   // TODO create a util parseInt to include radix auto, maybe a lodashGetInt?
+      //   const value = parseInt(lodashGet(data, "target.value"), "10");
+      //   if (
+      //     value &&
+      //     lodashGet(productionOrder, "plant.qualityTrackType") === "Q Refugo"
+      //   ) {
+      //     handleChange({
+      //       target: {
+      //         name: "confirmedProduction",
+      //         value:
+      //           (parseInt(
+      //             lodashGet(productionOrder, "totalProduction"),
+      //             "10"
+      //           ) || 0) - value
+      //       }
+      //     });
+      //   }
+      // }
     }
   ],
   {
