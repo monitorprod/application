@@ -188,7 +188,7 @@ module.exports = function () {
               return sum;
             }
             // skip short no justified
-            if (EVEndD.diff(EVStartD, "minutes") < notificationTimeMIN && `${ev.at}` === `${noJustifiedActionType}`) {
+            if (moment().diff(EVStartD, "minutes") > 60 && EVEndD.diff(EVStartD, "minutes") < notificationTimeMIN && `${ev.at}` === `${noJustifiedActionType}`) {
               if (shouldLog(ev)) console.log("> skip short no justified");
               return sum;
             }
