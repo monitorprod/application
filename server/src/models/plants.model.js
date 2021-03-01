@@ -29,10 +29,6 @@ module.exports = function(app) {
       },
       qualityTrackType: {
         type: Sequelize.ENUM("Q Refugo", "Q Confirmada"),
-        allowNull: false,
-        validate: {
-          notEmpty: true
-        }
       },
       qualityTrackFrequency: {
         type: Sequelize.ENUM("Horario", "Turno", "Diario", "Encerramento"),
