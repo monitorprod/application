@@ -247,7 +247,9 @@ const ProductionWaste = ({ classes }) => {
     permissions
   });
   useEffect(() => {
-    setHistoryBy(hasWriteAccess ? "waste" : "history");
+    setTimeout(() => {
+      setHistoryBy(hasWriteAccess ? "waste" : "history");
+    }, 300);
   }, [hasWriteAccess]);
   return (
     <Grid container direction="column" spacing={0} className={classes.container}>
