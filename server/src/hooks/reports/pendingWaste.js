@@ -327,7 +327,12 @@ module.exports = function () {
                   });
                   item.tp = lodash.reduce(
                     readings,
-                    (sum, { t }) => (sum += parseInt(t, "10") || 0),
+                    (sum, { t, dup }) => {
+                      if(dup) {
+                        return sum;
+                      }
+                      return (sum += parseInt(t, "10") || 0)
+                    },
                     0
                   );
                 } else {
