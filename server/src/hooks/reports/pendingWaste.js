@@ -314,7 +314,7 @@ module.exports = function () {
                   const itemED = moment(item.ed);
                   if (index % 3 === 2) {
                     itemSD.add(1, "days");
-                    itemED.add(2, "days");
+                    itemED.add(1, "days");
                   }
                   item.indexx = index;
                   const {
