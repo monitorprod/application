@@ -312,7 +312,7 @@ module.exports = function () {
                 if (item.getProduction) {
                   const itemSD = item.sd;
                   const itemED = item.ed;
-                  if (index === 2) {
+                  if (index % 3 === 2) {
                     itemSD.date += 1;
                     itemED.date += 2;
                   }
