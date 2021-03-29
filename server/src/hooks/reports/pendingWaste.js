@@ -308,8 +308,14 @@ module.exports = function () {
           );
           if (!showHistory) {
             await Promise.all(
-              lodash.map(wasteList, async (item) => {
+              lodash.map(wasteList, async (item, index) => {
                 if (item.getProduction) {
+                  const itemSD = item.sd;
+                  const itemED = item.ed;
+                  if (index === 2) {
+                    itemSD.date += 1;
+                    itemED.date += 2;
+                  }
                   const {
                     data: readings,
                   } = await productionOrderEventsService.find({
