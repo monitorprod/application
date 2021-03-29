@@ -147,6 +147,7 @@ const ProductionWaste = ({ classes }) => {
         const PendingWasteData = await client.service("machines").find({
           query: {
             ...JSON.parse(stringQuery),
+            // identity: "MAQ2",
             $pendingWaste: {
               sd: getDateJSON({ date: moment(stringStartDate) }),
               ed: getDateJSON({ date: moment(stringEndDate) }),
@@ -156,7 +157,7 @@ const ProductionWaste = ({ classes }) => {
             machineStatusId: lodashGet(client.get("config.machine.status.active"), "value")
           }
         });
-        // console.log("PendingWasteData", PendingWasteData)
+        console.log("PendingWasteData", PendingWasteData)
         const expandMap = {};
         lodashForEach(PendingWasteData.groupBy, item => {
           expandMap[lodashGet(item, "machine.id")] = true;

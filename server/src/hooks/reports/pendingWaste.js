@@ -167,6 +167,7 @@ module.exports = function () {
           $or: [{ ed: { $gte: moment(startD).toDate() } }, { ed: -1 }],
         },
       });
+      // console.log("historyList", historyList);
       await Promise.all(
         lodash.map(machines, async (machine) => {
           let wasteList = [];
@@ -325,13 +326,14 @@ module.exports = function () {
                       sd: { $lte: moment(item.ed).toDate() },
                     },
                   });
+                  item.readings = readings;
                   item.tp = lodash.reduce(
                     readings,
                     (sum, { t, dup }) => {
-                      if(dup) {
+                      if (dup) {
                         return sum;
                       }
-                      return (sum += parseInt(t, "10") || 0)
+                      return (sum += parseInt(t, "10") || 0);
                     },
                     0
                   );
