@@ -310,12 +310,13 @@ module.exports = function () {
             await Promise.all(
               lodash.map(wasteList, async (item, index) => {
                 if (item.getProduction) {
-                  const itemSD = item.sd;
-                  const itemED = item.ed;
+                  const itemSD = moment(item.sd);
+                  const itemED = moment(item.ed);
                   if (index % 3 === 2) {
-                    itemSD.date += 1;
-                    itemED.date += 2;
+                    itemSD.add(1, "days");
+                    itemED.add(2, "days");
                   }
+                  item.indexx = index;
                   const {
                     data: readings,
                   } = await productionOrderEventsService.find({
@@ -326,10 +327,10 @@ module.exports = function () {
                       rp: null,
                       tr: { $gt: 0 },
                       $or: [
-                        { ed: { $gte: moment(item.sd).toDate() } },
+                        { ed: { $gte: itemSD.toDate() } },
                         { ed: -1 },
                       ],
-                      sd: { $lte: moment(item.ed).toDate() },
+                      sd: { $lte: itemED.toDate() },
                     },
                   });
                   item.readings = readings;
