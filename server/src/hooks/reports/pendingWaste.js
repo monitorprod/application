@@ -23,6 +23,7 @@ const addToWasteList = ({
   plant,
   turn,
   date,
+  tIndex,
 }) => {
   const startTime = moment(turn.startTime);
   const sd = {
@@ -54,6 +55,7 @@ const addToWasteList = ({
     turnName: `${turn.name} ${moment(sd).format("DD/MM/YYYY")}`,
     sd,
     ed,
+    tIndex
   });
 };
 
@@ -216,7 +218,7 @@ module.exports = function () {
                   for (let i = 0; i <= daysDiff; i++) {
                     lodash.forEach(
                       get(plantTurnsMap, get(plant, "id")),
-                      (turn) => {
+                      (turn, tIndex) => {
                         addToWasteList({
                           wasteList,
                           productionOrder,
@@ -224,6 +226,7 @@ module.exports = function () {
                           turn,
                           getProduction: true,
                           date: moment(startOPD).add(i, "days").startOf("day"),
+                          tIndex,
                         });
                       }
                     );
@@ -259,7 +262,7 @@ module.exports = function () {
                     ed,
                   });
                 }
-                wasteList = lodash.filter(wasteList, (item) => {
+                wasteList = lodash.filter(wasteList, (item, index) => {
                   const wItem = lodash.find(
                     historyList,
                     (hItem) =>
@@ -291,15 +294,22 @@ module.exports = function () {
                     item.userName = get(usersMap, `${get(wItem, "ui")}.name`);
                     item.cd = moment(wItem.cd).toDate();
                   }
+                  // TODO HACK
+                  const itemSD = moment(item.sd);
+                  const itemED = moment(item.ed);
+                  if (item.tIndex && item.tIndex % 3 === 2) {
+                    itemSD.add(1, "days");
+                    itemED.add(1, "days");
+                  }
                   return (
                     moment(endD).isAfter(moment(item.sd), "minute") &&
                     moment(productionOrder.actualStartDate).isBefore(
-                      moment(item.ed),
+                      moment(itemED),
                       "minute"
                     ) &&
                     moment(
                       productionOrder.actualEndDate || moment(endD)
-                    ).isAfter(moment(item.sd), "minute") &&
+                    ).isAfter(moment(itemSD), "minute") &&
                     ((!showHistory && !wItem) || (showHistory && wItem))
                   );
                 });
@@ -310,13 +320,18 @@ module.exports = function () {
             await Promise.all(
               lodash.map(wasteList, async (item, index) => {
                 if (item.getProduction) {
+                  // TODO HACK
                   const itemSD = moment(item.sd);
                   const itemED = moment(item.ed);
-                  if (index % 3 === 2) {
+                  if (item.tIndex && item.tIndex % 3 === 2) {
                     itemSD.add(1, "days");
                     itemED.add(1, "days");
                   }
-                  item.indexx = index;
+                  // if (index % 3 === 2) {
+                  //   itemSD.add(1, "days");
+                  //   itemED.add(1, "days");
+                  // }
+                  // item.indexx = index;
                   const {
                     data: readings,
                   } = await productionOrderEventsService.find({
@@ -333,7 +348,7 @@ module.exports = function () {
                       sd: { $lte: itemED.toDate() },
                     },
                   });
-                  item.readings = readings;
+                  // item.readings = readings;
                   item.tp = lodash.reduce(
                     readings,
                     (sum, { t, dup }) => {
