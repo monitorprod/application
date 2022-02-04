@@ -270,7 +270,7 @@ const ProductionWaste = ({ classes }) => {
                 className={classes.export}
                 onClick={handleSubmit}
                 text="Gravar"
-                type="icon"
+                type="iconText"
                 icon="save"
               />
             )}

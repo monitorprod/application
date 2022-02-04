@@ -42,6 +42,17 @@ const styles = theme => ({
   icon: {
     marginRight: theme.spacing(1)
   },
+  iconText: {
+    backgroundColor: "rgba(255, 255, 255, .15)",
+    display: "flex",
+    alignItems: "center",
+    margin: theme.spacing(1),
+    borderRadius: 50,
+    [theme.breakpoints.down("xs")]: {
+      margin: 3,
+      padding: 2
+    }
+  },
   submit: {
     borderRadius: 4,
     backgroundColor: theme.palette.secondary.main,
@@ -82,7 +93,7 @@ const FormButton = ({
   ...props
 }) => {
   // console.log(">>> render FormButton");
-  const Component = type === "icon" ? IconButton : Button;
+  const Component = type === "icon" || type=== "iconText" ? IconButton : Button;
   const buttonProps = {};
   if (fullWidth) {
     buttonProps.fullWidth = true;
